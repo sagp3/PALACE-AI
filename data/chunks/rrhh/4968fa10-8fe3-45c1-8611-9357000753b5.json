@@ -1,0 +1,12 @@
+{
+    "id": "4968fa10-8fe3-45c1-8611-9357000753b5",
+    "chunk": 20,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "los costos futuros. Podrían ser modelos simples, como por ejemplo, \nestimar los costos de construcción con base en los valores históricos del \ncosto por m2 construido; o modelos econométricos más complejos \ndonde el costo de construcción depende de varias variables tales como \nlos m2, la localización, el clima, etc.  \nTambién podría realizarse una estimación paramétrica a través de una \nregresión lineal. Por ejemplo, en el gráfico a continuación se observa una \ncorrelación positiva entre las cantidades producidas (variable X) y los \ncostos totales (variable Y).  \nEstimación paramétrica \n \n \n \n \n \n \n \n \n \n0                5              10              15             20         25  \n  \nCantidad \n80 \n \n70 \n \n60 \n \n50 \n \n40 \n \n30 \n \n20 \n \n10 \n \n0 \nCosto ($) \n69 \nProyección \nfutura \nY = 1,57 X + 29,65 \nR2 = 0,81",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

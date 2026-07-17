@@ -1,0 +1,12 @@
+{
+    "id": "5a902a36-f68b-4766-9093-21a80aea1c9b",
+    "chunk": 49,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "el costo real (AC). Esta comparación se puede hacer a través de la variación \ndel costo (CV: Cost variance) o con el índice de desempeño del costo (CPI: \nCost performance index). \n \n   Variación del costo: CV = EV – AC   \n  Índice de desempeño del costo: CPI = EV / AC \n \nEn nuestro ejemplo, al finalizar el mes 4, el índice de variación del costo (CV) \nasciende a -2.000 ($6.000 - $8.000). Un valor del CV negativo indica \nineficiencia porque se gasta más de lo que se trabaja. Por el contrario, si CV es \npositivo indica eficiencia. \n  1             2            3             4            5             6    Mes \n10000 \n \n9000 \n \n8000 \n \n7000 \n \n6000 \n \n5000 \n \n4000 \n \n3000 \n \n2000 \n \n1000 \n \n       0 \n \nPV \nAC \nEV \nCosto ($)",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

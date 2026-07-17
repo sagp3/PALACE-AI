@@ -1,0 +1,12 @@
+{
+    "id": "b1885c7d-e02b-4307-ac9e-4184099e79d0",
+    "chunk": 24,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "223 \nCap. VII – Costo \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPara el año próximo se estima que la producción de tortas incrementará un \n30% debido a que la empresa ha firmado contratos con dos nuevos \nsupermercados. Para incrementar la producción de tortas los hornos estarán \nen funcionamiento mayor cantidad de horas diarias.  Los técnicos estiman un \nincremento adicional del 20% en el consumo de gas mensual.  \n  \n1. ¿Cuál es el cargo fijo por el consumo de gas? \n \n2. ¿Cuál es el costo variable por m3 consumido? \n \n3. ¿Cuál será el costo total anual para el consumo de gas del año próximo? \n \n \nPasos para realizar los cálculos con Excel: \n1. Cargar datos de la variable X en la primera columna  \n2. Cargar datos de la variable Y en la segunda columna \n3. Seleccionar todo el rango de datos \n4. Clic en Insertar / Gráfico dispersión \n5. Clic en alguno de los puntos del gráfico \n6. Clic con el botón derecho del mouse \n7. Agregar línea de tendencia \n8. Tipo de tendencia: lineal",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

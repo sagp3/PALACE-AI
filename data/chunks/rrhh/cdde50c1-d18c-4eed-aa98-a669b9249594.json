@@ -1,0 +1,12 @@
+{
+    "id": "cdde50c1-d18c-4eed-aa98-a669b9249594",
+    "chunk": 53,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n236 \nSiguiendo con el mismo ejemplo, en el mes 4 el SV asciende a -1.000 ($6.000 \n- $7.000), indicando que el proyecto está retrasado. Por el contrario, un SV \npositivo, indicaría que el proyecto se está ejecutando más rápido de lo \nprevisto.  \n \nUn análisis similar se puede realizar con el SPI. En nuestro ejemplo el SPI \nasciende a 0,86 ($6.000/$7.000). Si el SPI es menor que 1 está mostrando \nretraso, en caso de que fuera mayor que 1 indicaría que se ejecuta más rápido \nque lo planificado. \n \nAnálisis de variación del cronograma \n  \n \n \n \n \n \n \n \n \n \n \nAnalizando las actividades por separado, según la tabla a continuación, se \npuede concluir que la actividad de diseño tiene un SV igual a 0, lo que indica \nque esa tarea ya ha finalizado y su SPI es igual a 1. En cuanto a la actividad \nde construcción, está retrasada porque su SV es -1000 y su SPI es 0,75. \n \nAnálisis de variación del cronograma \nActividad \nPV \nAC \nEV \nSV = EV - PV SPI = EV / PV \n1. Diseño",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "469a0bae-0605-4e5e-b3a2-54ab31456273",
+    "chunk": 99,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "realiza uno no se puede llevar a cabo otro, y no habiendo restricción de \ncapital para invertir, deberíamos seleccionar el proyecto de mayor VNA \n(proyecto A). \n \n¿Te gusta más el proyecto B porque la relación VNA sobre inversión es mejor \nque en el proyecto A?  \n \nTe olvidaste que el VNA ya tiene en cuenta el recupero de la inversión, por lo \ntanto deberías elegir A para obtener un VNA de $100 adicionales al recupero \nde la inversión, en lugar de B donde solo ganarías $80. \n \n Período de repago o período de recupero de la inversión (PRI) \n \nEl período de repago mide el número de años que se necesitarán para que los \nbeneficios netos amorticen la inversión. En otras palabras, el PRI indica en \ncuánto tiempo se recupera la inversión. \n \nSegún los datos de la tabla a continuación, ¿Qué proyecto seleccionarías? \n \nProyecto Año 0 Año 1 Año 2 Año 3 PRI (años) \nA \n-5000 \n2000 \n3000 \n3000 \n2 \nB \n-5000 \n5000 \n0 \n0 \n1 \nC \n-5000 \n4000 \n1000 \n5000 \n2",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

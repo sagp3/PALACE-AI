@@ -1,0 +1,12 @@
+{
+    "id": "20ef93fd-1801-42ad-acfc-9a312de88cf8",
+    "chunk": 82,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "249 \nCap. VII – Costo \nY mejor no los aburro más con los ajustes en las fórmulas cuando el proyecto \nsuperó la fecha final estimada en la línea base y el PVt es igual a PVt-1.  \n \nConclusiones: \n \nSi SVt es positivo, SPIt es mayor que uno y el proyecto está adelantado. \n \nSi SVt es negativo, SPIt es menor que uno y el proyecto está retrasado. \n \nPara no complicarnos la vida con cálculos de extrapolaciones lineales, \nutilicemos alguna de las plantillas de cálculo pre-armadas.   \n \nPor último, bajo el supuesto de que la eficiencia o ineficiencia acumulada en el \npasado según el SPIt, se podría mantener de manera similar en el futuro, \npodemos estimar el plazo de finalización del proyecto de la siguiente forma: \n \nPlazo estimado de finalización = Duración total / SPIt \n \nSiguiendo con el ejemplo anterior, si la fecha estimada de la duración total del \nproyecto fueran 6 meses y al mes 4 el SPIt es de 0,75, podemos proyectar que",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

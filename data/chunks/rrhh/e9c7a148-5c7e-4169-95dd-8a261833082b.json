@@ -1,0 +1,12 @@
+{
+    "id": "e9c7a148-5c7e-4169-95dd-8a261833082b",
+    "chunk": 72,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n244 \n ?  El CPI de un proyecto agrícola es de 1.4 y el SPI es de 0.8. Esto significa \nque estamos produciendo $1.4 por cada dólar invertido. Sin embargo, sólo \nestamos a un 80% de donde deberíamos estar según el plan. ¿Qué es lo mejor \nque debería hacer? \nA. Utilizar menos recursos para bajar costos \nB. Informar al cliente que el proyecto está retrasado \nC. Compresión del cronograma \nD. Ejecución rápida \n \n  Aproximadamente 5 preguntas del examen incluyen cálculos de \nvalor ganado y otras 5 preguntas requieren conocer los conceptos de la \ngestión del valor ganado. \n \nRespuesta: \nAlternativa \nExplicación \nA \nFalso. Al ser el CPI mayor que 1, no hay un problema de costos. \nB \nPodría ser verdadero si no existieran la opción C y D. \nC \nVerdadero. Como el CPI es positivo, se podrían incrementar los \ncostos para una compresión y así acelerar el proyecto. \nD \nPodría ser si no existiera la opción C, ya que con la ejecución rápida \nse agregan riesgos al proyecto.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

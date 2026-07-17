@@ -1,0 +1,12 @@
+{
+    "id": "816e9a0d-378f-47d8-b9cc-f6f15e2dc506",
+    "chunk": 46,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "desempeño del proyecto es necesario conocer el nivel de avance de los \nentregables. \n \nValor ganado (EV) o valor trabajado \n \nPara poder estimar el valor del trabajo realizado o valor ganado (EV) es \nnecesario recopilar información sobre el porcentaje de terminación de cada \nentregable del proyecto. Luego, se debe convertir ese porcentaje de avance en \nun valor monetario al multiplicarlo por el costo total presupuestado de cada \nactividad.  \n \nEl porcentaje de terminación para las actividades del proyecto se presenta en \nla tabla a continuación. Esta información generalmente es provista por los \nresponsables de ejecutar cada actividad del proyecto. Multiplicando estos \nporcentajes de terminación de las actividades por su respectivo costo total \npresupuestado, se obtiene el valor ganado o valor del trabajo realizado como \nse presenta en la tabla a continuación. \n \nPorcentaje de avance y valor ganado (EV) \nActividad \nMes 1 Mes 2 Mes 3 Mes 4 Mes 5 Mes 6 \nTotal \n1. Diseño \n60%",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

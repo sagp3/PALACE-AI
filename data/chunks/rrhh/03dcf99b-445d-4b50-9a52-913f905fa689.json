@@ -1,0 +1,12 @@
+{
+    "id": "03dcf99b-445d-4b50-9a52-913f905fa689",
+    "chunk": 102,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "A \n-5000 \n2000 \n3000 \n3000 \n2 \n1.551  \nB \n-5000 \n5000 \n0 \n0 \n1 \n-$455 \nC \n-5000 \n4000 \n1000 \n5000 \n2 \n3.219  \n \nComo se puede observar, el proyecto B recupera la inversión en un año, pero \nsería un mal proyecto porque su VNA es negativo. Por su parte, tanto en el \nproyecto A como C, la inversión se recupera en dos años, pero el VNA de C es \nmejor que el de A. \n \n El PRI no es un buen indicador para seleccionar entre proyectos. Sin \nembargo, al momento de rendir el examen, si no dispones de \ninformación sobre el VNA o la TIR, deberías suponer que el proyecto de \nmenor PRI es el mejor. \n \n \n Relación beneficio costo \n \nLa relación beneficio-costo (B/C) consiste en dividir el valor actual de los \nbeneficios por el valor actual de los costos (incluyendo la inversión inicial). \n \n  Regla de decisión utilizando la relación B/C: \nSi B/C > 1 => Invertir (el VNA es positivo) \nSi B/C < 1 => No invertir (el VNA es negativo)",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

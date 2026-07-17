@@ -1,0 +1,12 @@
+{
+    "id": "9ce16bd4-988f-4ce7-863e-3face905a6bb",
+    "chunk": 75,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n246 \nε Respuesta ejercicio 7.5  \n \nEDT \nPLAN \nACTUAL \nCOSTO \nCRONOGRAMA \nPV \n  EV    AC   CV \nCV/EV \nCPI \n  SV SV/PV  SPI \nPlanificación \n30 \n30 \n25 \n5 \n17% \n1,2 \n0 \n0% \n1 \nConstrucción \n100 \n80 \n100 \n-20 \n-25% \n0,8 \n-20 \n-20% \n0,8 \nPruebas \n20 \n10 \n10 \n0 \n0% \n1 \n-10 \n-50% \n0,5 \nTotal \n150 \n120 135 \n-15 \n-12,5% 0,89 \n-30 \n-20% \n0,8 \n \nActividad Planificación \n \nCV = 5, ahorro de $5 en relación a lo planificado para el trabajo \nrealizado. $5 en relación al EV realizado de $30 representa un ahorro de \n17%.  \n \nCPI = 1,2. Ahorro de 20% en relación a lo gastado ($5 / $25). \n \nEV = PV, implica SV = 0 y SPI = 1. Seguramente esa actividad ya ha \nfinalizado. \n \nActividad Construcción \n \nCV = -20. Sobrecosto de $20 en relación a lo planificado, o sea un 25% \nen exceso ($20 / $80).  \n \nCPI = 0,8. Sobrecosto de 20% en relación a lo gastado ($20 / $100). \n \nSPI = 0,8. Se ha trabajado un 20% menos que lo planificado, por lo que \nla actividad está retrasada.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "cd7c5a69-e3db-4a8e-872f-e7813eac6d20",
+    "chunk": 55,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "237 \nCap. VII – Costo \n Proyección de costo según presupuesto original \n \nSupuesto: independientemente de la eficiencia o ineficiencia de lo que se haya \ngastado hasta el momento, el costo del trabajo restante se mantendrá según \nse había presupuestado originalmente. \n \nEAC = AC + (BAC – EV) \nEAC = $8.000 + ($10.000 - $6.000) = $12.000 \nETC = EAC – AC = $4.000 \n \n Proyección de costo según CPI actual \n \nSupuesto: los desembolsos futuros mantendrán el mismo nivel de eficiencia o \nineficiencia que lo ocurrido hasta el momento. \n \nSiguiendo con el ejemplo anterior, se estimó que al finalizar el mes 4 el CPI es \nde 0,75 (6.000/8.000), ya que se trabajó por un valor equivalente a $6.000 y \nse gastaron $8.000. Este índice puede interpretarse como que se trabajó por \nun 25% menos de lo gastado (-$2.000/$8.000), o que se gastó un 33,33% \nmás de lo trabajado ($2.000/$6.000). \n \nBajo el supuesto de que esta ineficiencia se mantenga en el tiempo, podemos",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

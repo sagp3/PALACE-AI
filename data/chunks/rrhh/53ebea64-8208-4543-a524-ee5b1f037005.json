@@ -1,0 +1,12 @@
+{
+    "id": "53ebea64-8208-4543-a524-ee5b1f037005",
+    "chunk": 22,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": " Ejercicio 7.2 – Estimación paramétrica de costos \n \nQuieres hacer gala de tus conocimientos sobre estimación paramétrica \nbrindándole ayuda a tu cuñado que es propietario de una panadería. La \nEmpresa de tu cuñado, Tortero SA, se dedica a la producción de tortas para \nvender con marcas propias a las cadenas de supermercados. La mayoría de los \ncostos de la empresa se pueden clasificar en costos fijos y costos variables. \nSin embargo, los registros contables para los costos de gas no permiten \ndiscriminar entre costos fijos y variables. \n \nLa Panadería cuenta con un galpón de 2.000 m2 y 4 hornos para producir \ndistintas variedades de tortas. Durante el año pasado todos los hornos \ntuvieron un consumo promedio de 429 m3/mes. Los consumos y costos de gas \nmensual se registran en la tabla y gráfico a continuación.  \n \nConsumo de gas y costos mensuales \nMes   m3 (X)   Costo $ (Y)   \nMes  \n m3 (X)   Costo $ (Y)  \nene \n110 \n  505 \nago \n330 \n1.560 \nfeb \n250 \n1.200 \nsep \n210 \n1.025 \nmar",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

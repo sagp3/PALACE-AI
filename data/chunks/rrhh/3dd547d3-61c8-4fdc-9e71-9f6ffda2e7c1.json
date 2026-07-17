@@ -1,0 +1,12 @@
+{
+    "id": "3dd547d3-61c8-4fdc-9e71-9f6ffda2e7c1",
+    "chunk": 48,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n234 \ninformación de las tablas anteriores y es de gran utilidad para el control \npresupuestario del proyecto. \n \nPV, AC, EV \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPor ejemplo, si se analizan todas las actividades del proyecto en su conjunto, \nse observa que en el mes 4 se ha trabajado por un valor de $6.000 (EV) y se \nhan gastado $8.000 (AC). Por lo tanto, se han gastado $2.000 más de lo \ntrabajado, lo que indica un problema de costos para el proyecto.  \n \nPor su parte, al finalizar el mes 4 se ha trabajado por $6.000 cuando según el \nplan se debería haber realizado $7.000 (PV) a esa fecha, lo que indica que se \nha realizado menos trabajo que el estimado y el proyecto está retrasado.  \n \nAnálisis de los costos  \n \nPara analizar los desvíos de costos se debe comparar el valor ganado (EV) con \nel costo real (AC). Esta comparación se puede hacer a través de la variación \ndel costo (CV: Cost variance) o con el índice de desempeño del costo (CPI:",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "832e5151-089e-4088-9903-6e243dadec6d",
+    "chunk": 35,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "imprevisto, es necesario incorporar este cambio en la línea base de \ncosto. \n \nReservas para contingencia y reserva de gestión \n \n \n Revisión de información histórica: los datos de presupuestos \nrealizados en proyectos similares del pasado, podrían utilizarse con una \nestimación análoga o paramétrica para estimar presupuestos futuros.  \n Conciliación \ndel \nlímite \ndel \nfinanciamiento: \nanalizar \nsi \nlos \ndesembolsos estimados en el presupuesto son consistentes con la \nfinanciación disponible. Por ejemplo, si el banco aprobó una línea de \ncrédito por $30 millones para financiar el proyecto, pero entregará un \nmáximo de $2 millones por mes, habrá que verificar  que el presupuesto \nno exceda ese límite de financiación.   \nPresupuesto - $65\nLínea base de costo - $55\n1 - $40\n1.1 - $10\n$2\n$4\n$2\n$1\nReserva contingencias - $1\n1.2 - $20 \n1.3 - $5\nReserva contingencias - $5\n2 - $15\nReserva de Gestión - $10\nSuma de costos \nActividades \nCuentas de control \nPaquetes de trabajo",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

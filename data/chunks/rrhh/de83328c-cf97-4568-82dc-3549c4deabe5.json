@@ -1,0 +1,12 @@
+{
+    "id": "de83328c-cf97-4568-82dc-3549c4deabe5",
+    "chunk": 41,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "231 \nCap. VII – Costo \nGestión del valor ganado (EVM) \n \nUna herramienta para evaluar el desempeño del proyecto durante su \nejecución, utilizada durante el grupo de procesos de monitoreo y control, es la \ngestión del valor ganado conocida en inglés por sus siglas EVM (Earned Value \nManagement).  \n \nEsta herramienta se utiliza para controlar la gestión integrada del alcance, el \ncronograma y los costos. Para llevar a cabo la gestión del valor ganado es \nnecesario calcular tres valores: \n \nValor planificado (PV: Plan Value) \n \nCosto real (AC: Actual Cost) \n \nValor ganado (EV: Earned Value) o valor del trabajo realizado \n \n Utilizaremos las siglas PV, AC y EV por ser las siglas utilizadas en la \nGuía del PMBOK® en español. \n \nPara explicar esta técnica analizaremos un proyecto muy simple que consiste \nen el desarrollo de un automóvil cuyas actividades son diseño, construcción y \npruebas como se presenta en el gráfico Gantt a continuación. \n \nProyecto automóvil",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

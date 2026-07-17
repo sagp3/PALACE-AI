@@ -1,0 +1,12 @@
+{
+    "id": "8fecccff-838d-463d-a7a7-d7762eaa9d7e",
+    "chunk": 21,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n222 \nSegún los datos históricos del gráfico, vamos a estimar cuáles serán los \ncostos futuros para una producción de 25 unidades. \nAplicando el método de los mínimos cuadrados ordinarios, se obtiene un \ncoeficiente de correlación R2 de 0,81, lo que significa que la variable X está \nexplicando en un 81% el comportamiento de la variable Y. \nPor su parte, se obtiene la siguiente ecuación: \n      \nY = 1,56 X + 29,6 \nLo cual significa: \n     \nCosto Total = 1,56 x cantidad + costo fijo \nDonde $1,56 es el costo variable por cada unidad producida y $29,6 es el \ncosto fijo. \nCon esta información, se puede estimar el costo total para una producción \nde 25 unidades de la siguiente forma: \n   Costo total = $1,56 x 25 unidades + $29,6 = $68,6 \n \n \n Ejercicio 7.2 – Estimación paramétrica de costos \n \nQuieres hacer gala de tus conocimientos sobre estimación paramétrica \nbrindándole ayuda a tu cuñado que es propietario de una panadería. La",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

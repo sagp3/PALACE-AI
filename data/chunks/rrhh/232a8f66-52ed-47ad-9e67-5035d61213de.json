@@ -1,0 +1,12 @@
+{
+    "id": "232a8f66-52ed-47ad-9e67-5035d61213de",
+    "chunk": 70,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "243 \nCap. VII – Costo \nε Respuesta ejercicio 7.4  \nIndicador \nCálculo \nRespuesta \nSignificado \nPV \nPV1 + PV2 + PV3 \n$300 \nDeberíamos trabajar por un valor de \n$300 \nEV \n100% x PV1 + 100% \nx PV2 + 40% x PV3 \n$240 \nDel trabajo total ya hemos \ncompletado $240 \nAC \nAC1 + AC2 + AC3 \n$250 \nLlevamos gastado $250 \nBAC \nPV total \n$400 \nEl presupuesto total es de $400 \nCV \nEV – AC \n-10,00 \nHemos gastado $10 más de lo \ntrabajado \nCPI \nEV / AC \n0,96 \nSólo obtenemos $0,96 por cada $ \ninvertido \nSV \nEV – PV \n-60,00 \nEl proyecto va lento \nSPI \nEV / PV \n0,80 \nSólo hemos avanzado un 80% de lo \nplanificado \nTCPI \n(BAC-EV) / (BAC – \nAC) \n160/150 \n= 1,067 \nDebo mejorar la eficiencia de costos \nen 6,7% para gastar $400 \nEAC \nBAC / CPI \n416,67 \nEl costo estimado al finalizar es de \n$416,67 \nETC \nEAC – AC \n166,67 \nFalta gastar $166,67 para finalizar el \nproyecto \nVAC \nBAC – EAC \n-16,67 \nSe estima gastar $16,67 más de lo \npresupuestado \n \n \nResumiendo la Gestión del valor ganado \nNombre \nFórmula",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

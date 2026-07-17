@@ -1,0 +1,12 @@
+{
+    "id": "ebd0d0a9-c98c-40a9-8d55-5e13fc67b9c8",
+    "chunk": 27,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "por lo que el consumo estimado anual es de 6.180 m3 (5.150m3 + 20% x \n5.150m3).  \nPara ese consumo de gas, el costo total anual será de $23.656 ($3,1128 x \n6.180 m3 + $368,28 x 12 meses).  \nEn la tabla a continuación se estiman los costos mensuales, teniendo en \ncuenta las estacionalidades, suponiendo que para cada mes el consumo de gas \nincrementa un 20% en relación al mismo mes del año anterior. Para la \nestimación del costo mensual se utiliza la ecuación Y = 3,1128 X + 368,28. \n \nMes   m3 (X)   Costo $ (Y)   \nMes  \n m3 (X)   Costo $ (Y)  \nene \n132 \n779 \nago \n396 \n1.601 \nfeb \n300 \n1.302 \nsep \n252 \n1.153 \nmar \n528 \n2.012 \noct \n444 \n1.750 \nabr \n864 \n3.058 \nnov \n660 \n2.423 \nmay \n480 \n1.862 \ndic \n972 \n3.394 \njun \n648 \n2.385 \nTotal \n6.180 \n23.656 \njul \n504 \n1.937 \nCambio % \n+20% \n+16% \n0      100     200    300    400     500     600    700    800    900 \n  \n          m3 \n3000 \n \n2500 \n \n2000 \n \n1500 \n \n1000 \n \n500 \n \n    0 \nCosto Total ($) \nY = 3,1128 X + 368,28 \nR2 = 0,96",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

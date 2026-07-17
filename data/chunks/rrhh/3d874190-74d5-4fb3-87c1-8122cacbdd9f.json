@@ -1,0 +1,12 @@
+{
+    "id": "3d874190-74d5-4fb3-87c1-8122cacbdd9f",
+    "chunk": 32,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "riesgos conocidos y/o una reserva de gestión para aquellos cambios por \nriesgos desconocidos o imprevistos. \n Reserva de contingencias: forman parte de la línea base de costos y el \nDP las puede gestionar sin pasar por el control integrado de cambios. \nLas reservas de contingencias se podrían agregar de manera individual a \ncada actividad y/o de manera agregada a un grupo de actividades o \npaquetes de trabajo.  \nVeamos el ejemplo de la tabla a continuación que tiene tres actividades (A, \nB, C), cuyo costo más probable asciende a $10 cada una. Supongamos que \nen caso que se enferme el operario asignado a una actividad, tenemos un \ncosto adicional de $3. Por su parte, en caso que el operario tenga una \nproductividad superior a lo normal, el costo de esa actividad podría bajar \nen $3, obteniendo un mínimo de $7 y un máximo de $13 por actividad. \nReserva para contingencia \nActividad \nCosto  \nMínimo \nCosto  \nmás probable \nCosto  \nmáximo \nReserva  \nmáxima \nA \n$7 \n$10 \n$13 \n$3 \nB \n$7 \n$10",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "641756d6-8788-49bc-95aa-0a29d4662535",
+    "chunk": 77,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "247 \nCap. VII – Costo \nCronograma Ganado (Earned Schedule) \n \nEl análisis del valor ganado presentado en las secciones previas se utiliza en la \ngestión de proyectos desde 1960.  \n \nLos indicadores relacionados con la variación de costos (CV, CPI, ETC, TCPI) \nhan demostrado ser una excelente herramienta para gestionar desvíos \npresupuestarios. \n \nSin embargo, los indicadores relacionados con los desvíos de tiempo (SV: \nvariación del cronograma y SPI: índice de desempeño del cronograma) no son \nexactos para medir retrasos o adelantos. Además, tienen el problema de que \ncuando el proyecto o una actividad finaliza, el SV se hace 0 (SPI = 1). No \nimporta si el proyecto terminó con retraso, al finalizar, esos indicadores \nsiempre muestran que las actividades terminaron a término.  \n \nSe puede modificar la forma de cálculo del SV y SPI, mediante la técnica del \n“cronograma ganado” para eliminar los problemas del EVM tradicional. Para",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

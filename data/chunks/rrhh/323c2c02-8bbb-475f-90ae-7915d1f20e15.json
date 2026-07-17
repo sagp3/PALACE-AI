@@ -1,0 +1,12 @@
+{
+    "id": "323c2c02-8bbb-475f-90ae-7915d1f20e15",
+    "chunk": 33,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Reserva para contingencia \nActividad \nCosto  \nMínimo \nCosto  \nmás probable \nCosto  \nmáximo \nReserva  \nmáxima \nA \n$7 \n$10 \n$13 \n$3 \nB \n$7 \n$10 \n$13 \n$3 \nC \n$7 \n$10 \n$13 \n$3 \nTotal \n$21 \n$30 \n$39 \n$9 \nUna forma de asignar la reserva para contingencia sería colocar $3 \nadicionales a cada actividad, lo que daría una reserva total de $9. Esto \npodría ser una sobre-estimación de la reserva ya que podría ser poco",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

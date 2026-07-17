@@ -1,0 +1,12 @@
+{
+    "id": "12d500ab-8a52-4d07-95d9-1c614702afe7",
+    "chunk": 50,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "235 \nCap. VII – Costo \nUn análisis similar se puede realizar con el índice de desempeño del costo \n(CPI). En este caso el CPI es 0,75 ($6.000/$8.000). Si el CPI es menor que 1 \nestá mostrando ineficiencia porque se gasta más de lo que se trabaja, cuando \nel CPI es mayor que 1 indica eficiencia en la utilización de los recursos. \n \nAnálisis de variación de costos \n \n \n \n \n \n \n \n \nEste análisis se debe realizar para cada una de las actividades de manera \nperiódica, a medida que se ejecuta el proyecto. En la tabla a continuación se \nsintetizan los indicadores para evaluar el desempeño del costo de las \nactividades del proyecto al finalizar el mes 4.  \n \nAnálisis de variación de costos \nActividad \nPV \nAC \nEV \nCV = EV - AC CPI = EV / AC \n1. Diseño \n3.000 2.000 3.000 \n1.000 \n1,50 \n2. Construcción 4.000 6.000 3.000 \n-3.000 \n0,50 \nTotal \n7.000 8.000 6.000 \n-2.000 \n0,75 \n \nAnalizando la variación del costo (CV), se puede concluir que en la actividad de",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

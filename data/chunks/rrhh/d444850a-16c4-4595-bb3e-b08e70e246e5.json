@@ -1,0 +1,12 @@
+{
+    "id": "d444850a-16c4-4595-bb3e-b08e70e246e5",
+    "chunk": 100,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Proyecto Año 0 Año 1 Año 2 Año 3 PRI (años) \nA \n-5000 \n2000 \n3000 \n3000 \n2 \nB \n-5000 \n5000 \n0 \n0 \n1 \nC \n-5000 \n4000 \n1000 \n5000 \n2 \n \n¿Te gustó el proyecto B porque su PRI es más corto?  \n \n¡Cuidado! El proyecto B, tendrá un VNA negativo, sea cuál sea la tasa de \ndescuento. \n \nEl PRI es un criterio muy utilizado, todo empresario quiere saber en cuántos \naños estima que recuperará su inversión. No existe un criterio definido que",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

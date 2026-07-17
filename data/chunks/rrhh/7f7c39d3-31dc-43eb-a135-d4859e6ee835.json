@@ -1,0 +1,12 @@
+{
+    "id": "7f7c39d3-31dc-43eb-a135-d4859e6ee835",
+    "chunk": 54,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "de construcción, está retrasada porque su SV es -1000 y su SPI es 0,75. \n \nAnálisis de variación del cronograma \nActividad \nPV \nAC \nEV \nSV = EV - PV SPI = EV / PV \n1. Diseño \n3.000 2.000 3.000 \n0 \n1 \n2. Construcción 4.000 6.000 3.000 \n-1.000 \n0,75 \nTotal \n7.000 8.000 6.000 \n-1.000 \n0,86 \n \n Las fórmulas de la gestión del valor ganado comienzan con EV. Las \nvariaciones son una resta y los índices una división.   \n \nProyecciones de costos \n \nLa terminología utilizada para las proyecciones de costos es la siguiente: \n \nPresupuesto hasta la conclusión (BAC: Budget at completion)  \n \nEstimación a la conclusión (EAC: Estimate at completion) \n \nEstimación hasta la conclusión (ETC: Estimate to complete)  \n \n Utilizaremos las siglas BAC, EAC y ETC por ser las siglas utilizadas en \nla Guía del PMBOK® en español. \n60\n% \n70\n% \n  PV          EV \nAl finalizar el mes 4: \nPV = $7.000  \nEV = $6.000 \nSV = EV – PV = -1.000 \nSPI = EV / PV = 0,86  Retraso!",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

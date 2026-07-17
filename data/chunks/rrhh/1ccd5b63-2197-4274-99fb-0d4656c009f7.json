@@ -1,0 +1,12 @@
+{
+    "id": "1ccd5b63-2197-4274-99fb-0d4656c009f7",
+    "chunk": 66,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "3. Construir local \n \n \n \n140 \n280 \n420 \n \n \n \n4. Equipamiento \n \n \n \n \n \n0 \n \n \n \nTotal = EV \n30 \n60 \n100 \n240 \n380 \n520 \n \n \n \n \na) Desvíos de costo total del proyecto al final del mes 6: \nCV = EV – AC = $520 - $560 = -$40 \nIneficiencia. Se han gastado $40 más de lo trabajado. \nCPI = EV / AC = $520 / $560 = 0,93 \nPor cada peso gastado se ha trabajado $0,93 \n \nb) Desvíos del cronograma total del proyecto al final el mes 6 \nSV = EV – PV = $520 - $400 = $120 \nEl proyecto va rápido. Se trabajó $120 más que lo planificado. \nSPI = EV / PV = $520 / $400 = 1,3 \n \nc) Costo total al finalizar el proyecto suponiendo que se mantiene la misma ineficiencia: \nEAC = BAC / CPI = $1.000 / 0,93 = $1.075 \nVAC = BAC - EAC = $1.000 - $1.075 = -$75 \nSe estima gastar $75 más que lo presupuestado originalmente. \n \nd) TCPI = (BAC – EV) / (BAC – AC) = ($1000 – $520) / ($1000 – $560)  \n    TCPI = $480 / $440 = 1,091",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

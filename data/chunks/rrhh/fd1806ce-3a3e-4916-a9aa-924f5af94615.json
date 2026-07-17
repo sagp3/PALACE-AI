@@ -1,0 +1,12 @@
+{
+    "id": "fd1806ce-3a3e-4916-a9aa-924f5af94615",
+    "chunk": 91,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "253 \nCap. VII – Costo \nPor ejemplo, si un proyecto tiene una TIR del 15% anual y la mejor alternativa \nes colocar el dinero a una tasa del 10% anual, debería llevarse a cabo el \nproyecto.   \nVNA y TIR \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Si aumenta la tasa de descuento el VNA disminuye \n \n \n Ejercicio 7.7 – VNA y TIR \n \nQuieres seleccionar entre dos proyectos de inversión. El flujo de fondos neto \nde cada proyecto se presenta en las tablas a continuación. \nProyecto Norte \nProyecto \nAño 0 \nAño 1 \nAño 2 \nAño 3 \nAño 4 \nAño 5 \nNORTE \n-140.000 7.000 20.000 25.000 60.000 90.000 \nProyecto Sur \nProyecto \nAño 0 \nAño 1 \nAño 2 \nAño 3 \nAño 4 \nAño 5 \nSUR \n-140.000 61.000 52.000 44.000 15.000 10.000 \n \na) ¿Qué decisión deberías tomar si el retorno mínimo que le exigen a tus \nproyectos es del 10% anual?  \n \nb) ¿Cómo cambia la decisión si la tasa de descuento exigida a tus inversiones \nes sólo del 5% anual?  \n \nc) ¿Cuál es la tasa interna de retorno de cada proyecto?",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

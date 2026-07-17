@@ -50,6 +50,4 @@ class IngestKnowledge:
         # 3. Update index
         #
 
-        raise NotImplementedError(
-            "Knowledge ingestion is not implemented yet."
-        )
+        raise NotImplementedError("Knowledge ingestion is not implemented yet.")

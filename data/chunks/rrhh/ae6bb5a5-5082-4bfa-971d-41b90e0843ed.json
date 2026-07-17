@@ -1,0 +1,12 @@
+{
+    "id": "ae6bb5a5-5082-4bfa-971d-41b90e0843ed",
+    "chunk": 59,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "$15.500 = EAC \n \nÍndice de desempeño del trabajo por completar (TCPI) \n \nTCPI: to conclude performance index \n \nEste índice mide la relación entre lo que falta trabajar (BAC – EV) y los fondos \nrestantes (BAC – AC). Indica la eficiencia de costos necesaria para alcanzar el \nBAC (o el EAC).  \n \n  TCPI = (BAC – EV) / (BAC – AC)",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

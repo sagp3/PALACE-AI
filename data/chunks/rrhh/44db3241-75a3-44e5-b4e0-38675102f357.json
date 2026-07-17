@@ -1,0 +1,12 @@
+{
+    "id": "44db3241-75a3-44e5-b4e0-38675102f357",
+    "chunk": 88,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n252 \nUn proyecto será rentable sólo si el valor actual del flujo de beneficios netos \nque genera es positivo. \n \n  Regla de decisión utilizando el VNA: \nSi VNA > 0 => Proyecto rentable => Invertir \nSi VNA < 0 => Proyecto No rentable => No invertir \n \nEl VNA mide, en moneda de hoy, cuánto más rico es el inversionista por \ninvertir en el proyecto en lugar de hacerlo en su mejor alternativa. \n \nSupongamos una empresa que puede invertir su dinero en proyectos que \nrinden un 8% anual. La formulación de un proyecto indica que se requiere una \ninversión de $50.000 para obtener un VNA de $10.000.  \n \n¿Conviene llevar a cabo este proyecto?  \n \nSiempre que el VNA sea positivo, desde el punto de vista financiero, conviene \nllevar a cabo el proyecto. El VNA de $10.000 significa que el inversor recupera \nlos $50.000 y el 8% anual de $50.000 durante la vida del proyecto ($4000 por \naño); y además obtiene $10.000 adicionales a moneda del día de hoy.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

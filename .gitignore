@@ -1,5 +1,18 @@
+# Virtual Environment
 venv/
+
+# Environment Variables
 .env
+
+# Python Cache
 __pycache__/
 *.pyc
+
+# VSCode
 .vscode/
+
+# Chroma Database
+chromadb/
+
+# Logs
+*.log

@@ -1,0 +1,12 @@
+{
+    "id": "05489e1b-f67d-4314-a6c2-e0106a47a044",
+    "chunk": 78,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Se puede modificar la forma de cálculo del SV y SPI, mediante la técnica del \n“cronograma ganado” para eliminar los problemas del EVM tradicional. Para \nello, vamos a analizar las variaciones del cronograma sobre la variable tiempo, \nen lugar de medir diferencias de costos como se utiliza en la técnica del EVM. \nA los nuevos valores de SV y SPI modificados, los llamaremos SVt y SPIt. \n \nVeamos un ejemplo analizando el gráfico a continuación. Al finalizar el mes 4 \nel PV = $100 y el EV = $95. Siguiendo la metodología tradicional del valor \nganado, tenemos un SV = -5 (EV–PV = 95-100) y un SPI de 0,95 (EV/PV = \n95/100). ¿Esto significa que el proyecto está retrasado en un 5% (1-0,95)? \nNo! \n \nCronograma ganado (AT > ES) \n \n \n \n \n \n \n \n \n \n \n \n \n \nSegún el valor planificado, en el mes 3 deberíamos haber completado el \ntrabajo de $95 que hemos finalizado en el mes 4. Por lo tanto, al mes 4 el \nproyecto tiene un retraso de 1 mes, o sea está atrasado en un 25% (1 mes / 4",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

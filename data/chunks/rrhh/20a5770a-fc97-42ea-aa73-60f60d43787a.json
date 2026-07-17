@@ -1,0 +1,12 @@
+{
+    "id": "20a5770a-fc97-42ea-aa73-60f60d43787a",
+    "chunk": 67,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Se estima gastar $75 más que lo presupuestado originalmente. \n \nd) TCPI = (BAC – EV) / (BAC – AC) = ($1000 – $520) / ($1000 – $560)  \n    TCPI = $480 / $440 = 1,091 \nEs necesario un ahorro de costos del 9,1% ($40) para cumplir con el presupuesto original \nde $1000. O sea, debo realizar los $480 restantes solamente con $440.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

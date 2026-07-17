@@ -1,0 +1,12 @@
+{
+    "id": "37d5f6d5-39e6-4898-a1d1-a7f5644203f8",
+    "chunk": 25,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "4. Clic en Insertar / Gráfico dispersión \n5. Clic en alguno de los puntos del gráfico \n6. Clic con el botón derecho del mouse \n7. Agregar línea de tendencia \n8. Tipo de tendencia: lineal \n9. Marcar presentar ecuación y presentar R cuadrado \n10. Cerrar \n \n Dedica 15 minutos a resolver el ejercicio. \n \n \n \n0      100     200    300    400     500     600    700    800    900 \n  \n          m3 \n3000 \n \n2500 \n \n2000 \n \n1500 \n \n1000 \n \n500 \n \n    0 \nCosto Total ($)",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "d20c8225-dc4a-47bd-a53c-99edb9d9dc9e",
+    "chunk": 26,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n224 \nε Respuesta ejercicio 7.2  \nLuego de aplicar el método de los mínimos cuadrados ordinarios utilizando la \nherramienta Excel, se obtiene la información del gráfico a continuación: \n \n \n \n \n \n \n \n \n \n \nEl R2 de 0,96 indica una correlación estadísticamente significativa. Por su \nparte, la ecuación arroja información sobre el costo variable y el costo fijo. \n \n1. El cargo fijo es de $368,28 mensuales.  \nNota: como la serie de datos es mensual el costo fijo es mensual, si la serie \nfuera anual el costo fijo sería anual y si los datos fueran diarios el costo fijo \nsería diario. \n \n2. El costo variable es de $3,1128 por cada m3 de gas consumido. \n \n3. El año próximo se estima un incremento en el consumo de gas del 20%, \npor lo que el consumo estimado anual es de 6.180 m3 (5.150m3 + 20% x \n5.150m3).  \nPara ese consumo de gas, el costo total anual será de $23.656 ($3,1128 x \n6.180 m3 + $368,28 x 12 meses).",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

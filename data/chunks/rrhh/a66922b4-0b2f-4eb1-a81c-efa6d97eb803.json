@@ -1,0 +1,12 @@
+{
+    "id": "a66922b4-0b2f-4eb1-a81c-efa6d97eb803",
+    "chunk": 85,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n250 \nε Respuesta ejercicio 7.6  \n \na) Cronograma ganado \nES = t + (EVt – PVt) / (PVt+1 – PVt) \n \nES = 6 + (520 – 400) / (800 – 400) = 6 + 120/400 = 6,3 \n \nSVt = ES – AT = 6,3 – 6 = 0,3 (Proyecto adelantado en 0,3 meses) \n \nSPIt = ES / AT = 6,3 / 6 = 1,05 (Proyecto adelantado un 5% en relación a su \nlínea base) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nb) Fecha estimada de finalización \n \nFecha estimada = Duración total / SPI = 8 / 1,05 = 7,62  \n \nEl proyecto podría finalizar 0,38 meses antes de la fecha estimada en la línea \nbase. \n \n \n    1              2              3              4              5               6 6,3        7              8  meses  \n200 \n400 \n600 \n800 \n1000 \nPV \nEV \n$ \nAT ES \n520",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

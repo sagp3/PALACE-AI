@@ -1,0 +1,12 @@
+{
+    "id": "604ca2e1-01e9-448c-88be-9c69587dda19",
+    "chunk": 34,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "227 \nCap. VII – Costo \nprobable que todos los operarios se enfermen y ninguno sea más \nproductivo. \nUtilizando algún software para correr la simulación de Monte Carlo, \nobtendríamos una reserva de contingencia de $6, luego de ingresar al \nsoftware que cada actividad tiene una distribución triangular ($7, $10, $13) \ny realizar miles de simulaciones. \nPor lo tanto, una reserva de $6 para ese grupo de 3 actividades, sin \nespecificar a qué actividad corresponde, podría ser mejor que una reserva \nde $9 asignando $3 adicionales a cada actividad. \n \n Reserva de gestión: forma parte del presupuesto y para poder utilizarla \ndebe ser aprobada previamente por el control integrado de cambios. \nCuando se utiliza parte de esta reserva para financiar trabajo \nimprevisto, es necesario incorporar este cambio en la línea base de \ncosto. \n \nReservas para contingencia y reserva de gestión \n \n \n Revisión de información histórica: los datos de presupuestos",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

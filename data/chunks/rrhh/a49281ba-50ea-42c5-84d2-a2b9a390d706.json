@@ -1,0 +1,12 @@
+{
+    "id": "a49281ba-50ea-42c5-84d2-a2b9a390d706",
+    "chunk": 52,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "cronograma (SV: Schedule variance) o con el índice de desempeño del \ncronograma (SPI; Schedule performance index). \n \n  Variación del cronograma: SV = EV – PV   \n  Índice de desempeño del cronograma: SPI = EV / PV \n80\n% \n60\n% \n  AC         EV \nAl finalizar el mes 4: \nAC = $8.000 \nEV = $6.000 \nCV = EV – AC = -2.000 \nCPI = EV / AC = 0,75  Ineficiencia",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

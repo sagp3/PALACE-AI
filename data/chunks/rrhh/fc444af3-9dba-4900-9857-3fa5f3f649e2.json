@@ -1,0 +1,12 @@
+{
+    "id": "fc444af3-9dba-4900-9857-3fa5f3f649e2",
+    "chunk": 23,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Consumo de gas y costos mensuales \nMes   m3 (X)   Costo $ (Y)   \nMes  \n m3 (X)   Costo $ (Y)  \nene \n110 \n  505 \nago \n330 \n1.560 \nfeb \n250 \n1.200 \nsep \n210 \n1.025 \nmar \n440 \n 1.710 \noct \n370 \n1.560 \nabr \n720 \n 2.700 \nnov \n550 \n1.950 \nmay \n400 \n1.720 \ndic \n810 \n2.830 \njun \n540 \n1.870 \nTotal \n5.150 \n20.450 \njul \n420 \n1.820 \nPromedio \n429 \n1.704",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

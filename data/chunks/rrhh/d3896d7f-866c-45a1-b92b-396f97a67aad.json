@@ -1,0 +1,12 @@
+{
+    "id": "d3896d7f-866c-45a1-b92b-396f97a67aad",
+    "chunk": 42,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "en el desarrollo de un automóvil cuyas actividades son diseño, construcción y \npruebas como se presenta en el gráfico Gantt a continuación. \n \nProyecto automóvil \n \n \n \n \n \nValor planificado (PV) \n \nEn la tabla a continuación se presenta el presupuesto del proyecto y su línea \nbase de costo, o sea el valor planificado (PV) de cada actividad. Por ejemplo, \nel PV total al finalizar el mes 4 asciende a $7.000 (costo acumulado). Por su \nparte, el PV total al finalizar el último mes siempre coincide con el costo total \ndel proyecto, en este ejemplo $10.000. \n \nValor planificado (PV) \nActividad \nMes 1 \nMes 2 \nMes 3 \nMes 4 \nMes 5 \nMes 6 \nTotal \n1. Diseño \n1.500 \n1.500 \n \n \n \n \n3.000 \n2. Construcción \n \n \n2.000 \n2.000 \n2.000 \n \n6.000 \n3. Pruebas \n \n \n \n \n \n1.000 \n1.000 \nTotal \n1.500 1.500 2.000 2.000 2.000 \n1.000 \n10.000 \nAcumulado (PV) 1.500 3.000 5.000 7.000 9.000 10.000 \n- \n% Acumulado \n15% \n30% \n50% \n70% \n90% \n100% \n- \n \nDiseño \n2 meses \nConstrucción \n3 meses \nPruebas \n1 mes",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

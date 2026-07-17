@@ -18,12 +18,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any
-
 
 # ============================================================
 # VALUE OBJECTS
 # ============================================================
+
 
 class Area(Enum):
     """
@@ -46,6 +45,7 @@ class DocumentType(Enum):
 # ============================================================
 # ENTITIES
 # ============================================================
+
 
 @dataclass(frozen=True)
 class Document:
@@ -94,6 +94,7 @@ class Answer:
 # ============================================================
 # DOMAIN SERVICES
 # ============================================================
+
 
 class KnowledgeBase:
     """

@@ -1,0 +1,12 @@
+{
+    "id": "25bc1180-f40e-470c-8628-6d9efdd64a08",
+    "chunk": 63,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n240 \n Ejercicio 7.3 – Gestión del valor ganado – Construcción \n \nEl presupuesto estimado de tu próximo proyecto es el siguiente: \nActividad / Mes \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nTotal \n1. Estudio Mercado \n40_ \n20_ \n \n \n \n \n \n \n60 \n2. Definir Estrategia \n \n \n40_ \n \n \n \n \n \n40 \n3. Construir local \n \n \n \n100 \n100 \n100 \n400 \n \n700 \n4. Equipamiento \n \n \n \n \n \n \n \n200 \n200 \nTotal \n40 \n20 \n40 \n100 \n100 \n100 \n400 \n200 \n1000 \nLínea base \n \n \n \n \n \n \n \n \n \n \nHasta el mes 6 los costos reales devengados fueron los siguientes: \nActividad / Mes \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nTotal \n1. Estudio Mercado \n40_ \n30_ \n \n \n \n \n \n \n70 \n2. Definir Estrategia \n \n \n40_ \n \n \n \n \n \n40 \n3. Construir local \n \n \n \n100 \n150 \n200 \n \n \n450 \n4. Equipamiento \n \n \n \n \n \n \n \n \n \nTotal \n40 \n30 \n40 \n100 \n150 \n200 \n \n \n560 \nAcumulado \n \n \n \n \n \n \n \n \n \n \nHasta el mes 6 el porcentaje de avance del proyecto fue el siguiente: \nActividad / Mes \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nTotal \n1. Estudio Mercado \n50% \n100% \n100%",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

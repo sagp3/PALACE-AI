@@ -1,0 +1,12 @@
+{
+    "id": "a4566d6f-c9b1-4bf7-9c2d-86cb8c6722b2",
+    "chunk": 83,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Siguiendo con el ejemplo anterior, si la fecha estimada de la duración total del \nproyecto fueran 6 meses y al mes 4 el SPIt es de 0,75, podemos proyectar que \nel proyecto podría finalizar en el mes 8 (6 / 0,75).   \n \nEsta fórmula se puede demostrar con la lógica de tres simple: \nSi para hacer el trabajo de 3 meses ya llevamos trabajando 4 meses, ¿cuántos \nmeses necesitaremos para hacer el trabajo total de 6 meses? \n \n3 ____ 4 \n6 ____ x \nx = (6 x 4) / 3 = 8   \n \n \n Ejercicio 7.6 – Cronograma ganado \n \nVolviendo a los datos del ejercicio 7.3, en la tabla a continuación se resumen \nlos datos del valor ganado para análisis del cronograma. \n \nMes \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nPV \n40 \n60 \n100 \n200 \n300 \n400 \n800 1000 \nEV \n30 \n60 \n100 \n240 \n380 \n520 \n  \n  \nSV = EV – PV \n-10 \n0 \n0 \n40 \n80 \n120 \n  \n  \nSPI = EV / PV 0,75 1,00 1,00 1,20 1,27 1,30 \n \n \n \na) ¿Cuál sería el SPIt y SVt del mes 6 en base a la técnica del cronograma \nganado? Grafique e interprete los resultados.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

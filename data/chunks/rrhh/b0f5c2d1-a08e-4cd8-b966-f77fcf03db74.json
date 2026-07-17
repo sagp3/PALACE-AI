@@ -1,0 +1,12 @@
+{
+    "id": "b0f5c2d1-a08e-4cd8-b966-f77fcf03db74",
+    "chunk": 11,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "del proyecto a través del tiempo.  \n4. Controlar los costos: monitorear los avances de los costos, actualizar \nel presupuesto y gestionar los cambios. \n En proyectos pequeños, estimar los costos y determinar el \npresupuesto podrían realizarse en un solo proceso. \n \nCuando los proyectos están sujetos a cambios y se aplican metodologías \nágiles, el presupuesto total del proyecto está indefinido en las fases iniciales. \nPor lo tanto, no se estima el costo detallado de todos los recursos del \nproyecto, sino solamente de los recursos que se utilizarán en la primera \niteración. Luego, en base a las lecciones aprendidas, se definirá el alcance de \nla segunda iteración y se podrán presupuestar esas actividades.  \n \n Si se aplican metodologías ágiles, pero se tiene un presupuesto fijo, \nla variable de ajuste será el alcance del proyecto (historias de usuarios). \n \n Querer saber el presupuesto exacto de todo el proyecto aplicando",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

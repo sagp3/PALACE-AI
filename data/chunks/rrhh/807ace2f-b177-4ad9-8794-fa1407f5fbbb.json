@@ -1,0 +1,12 @@
+{
+    "id": "807ace2f-b177-4ad9-8794-fa1407f5fbbb",
+    "chunk": 80,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n248 \nSVt = ES - AT = 3 – 4 = -1 (el proyecto está retrasado 1 mes) \nSPIt = ES / AT = 3 / 4 =  0,75 (el proyecto tiene un retraso de 25%) \n \nDonde: \nAT (Actual Time): tiempo actual de la medición \nES (Earned Schedule): partiendo del valor ganado (EV) al mes de medición, \nextrapolar cuál debería haber sido el valor planificado. \n \n¿Cómo sería el análisis en aquellos casos que el proyecto esté adelantado en \nrelación a su línea base? \n \nSigamos con el mismo ejemplo y analicemos los desvíos del primer mes. En el \nmes 1, el EV fue de $40, pero según el valor planificado, ese trabajo debería \nhaberse completado en el mes 1,5. Por lo tanto, el proyecto está 0,5 meses \nadelantado, o sea un 50% más rápido de lo estimado. \n \nCronograma ganado (AT < ES) \n \n   \n \n \n \n \n \n \n \n \n \n \n \nSVt = ES - AT = 1,5 – 1 = 0,5 (el proyecto está adelantado medio mes) \nSPIt = ES / AT = 1,5 / 1 =  1,50 (proyecto 50% más rápido que lo planificado) \n \n¿Cómo calculamos ES?",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

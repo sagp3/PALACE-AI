@@ -1,0 +1,12 @@
+{
+    "id": "1a79018e-64bf-4e61-a3e5-c2231dbbee68",
+    "chunk": 87,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "PMBOK®. Te podrían preguntar un par de preguntas conceptuales sobre \ncriterios financieros.  \n \nNo es objeto de este libro entrar en detalle sobre estos indicadores \nfinancieros.20  \n \nA continuación se explicará sintéticamente lo más importante de cada uno de \nellos. \n \n Valor neto actual (VNA) \n \nEl Valor Neto Actual (VNA), o VAN (Valor actual neto) mide la rentabilidad del \nproyecto en moneda del día de hoy después de recuperar la inversión y el \ncosto de oportunidad del dinero. La fórmula para calcular el VNA es la \nsiguiente: \n \nVNA =   BN0 +  BN1   +  BN2      + ....... +   BNn   \n \n                               (1+i)     (1+i)2                    (1+i)n \nDonde, \nBN: Beneficio Neto \nBN0: beneficio neto del momento 0 (inversión inicial). \ni: tasa de interés o tasa de descuento \n \n                                                 \n20 Para profundizar sobre indicadores financieros puede consultar el libro “Evaluación Financiera de \nProyectos” de Pablo Lledó.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

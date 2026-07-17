@@ -1,0 +1,12 @@
+{
+    "id": "4431164c-6b00-4a88-868d-65df7f4e6bc1",
+    "chunk": 79,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "trabajo de $95 que hemos finalizado en el mes 4. Por lo tanto, al mes 4 el \nproyecto tiene un retraso de 1 mes, o sea está atrasado en un 25% (1 mes / 4 \nmeses), lo que equivaldría a un SPIt de 0,75. \n \n          1           2           3            4        meses \n$95 \n$100 \nPV \nEV \nES \nAT",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

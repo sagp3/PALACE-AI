@@ -1,0 +1,12 @@
+{
+    "id": "56fa20ca-c2e7-4a0f-8c51-b2af4ad61f86",
+    "chunk": 56,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "un 25% menos de lo gastado (-$2.000/$8.000), o que se gastó un 33,33% \nmás de lo trabajado ($2.000/$6.000). \n \nBajo el supuesto de que esta ineficiencia se mantenga en el tiempo, podemos \nestimar de manera simplificada que el costo total del proyecto será un 33,33% \nsuperior que el planificado originalmente. En este ejemplo, el costo estimado \noriginal al final del mes 6 ascendía a $10.000, por lo que el costo estimado a \nla finalización sería de $13.333. Este cálculo se puede obtener con la siguiente \necuación: \n   EAC = BAC / CPI \n   EAC = $10.000 / 0,75 = $13.333 \n  \nQue sería lo mismo que decir: \n   EAC  = AC + (BAC – EV) / CPI \n   EAC = $8.000 + $4.000 / 0,75 = $13.333 \n    \nETC = EAC – AC = $5.333 \n \n Fórmula simple y rápida para estimar costos a la finalización \nEAC = BAC / CPI",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

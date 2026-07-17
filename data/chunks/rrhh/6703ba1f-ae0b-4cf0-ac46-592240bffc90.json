@@ -1,0 +1,12 @@
+{
+    "id": "6703ba1f-ae0b-4cf0-ac46-592240bffc90",
+    "chunk": 28,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "225 \nCap. VII – Costo \n Estimación por 3 valores: al igual que para estimar la duración de \nuna actividad, para estimar los costos se puede aplicar la técnica PERT. \nCosto estimado según Distribución Beta = (a + 4 x b + c) / 6 \nDesviación  estándar = (c – a) / 6 \nDónde: a es optimista, b más probable y c pesimista. \nPor ejemplo, los técnicos estiman que el costo de una actividad será $180 \ncomo optimista, $240 lo más probable y $360 en el escenario pesimista. En \neste caso el costo estimado por tres valores ascendería a $250, la \ndesviación estándar sería $30 y existe un 95% de probabilidad que el costo \nesté en un rango entre $190 y $310 (media +/- 2 desviaciones estándar). \nCosto estimado según distribución Triangular = (a + b + c) / 3 \n Análisis de alternativas: ¿Cuáles son las ventajas y desventajas de \nlas diferentes estrategias de financiamiento?, ¿Cuáles son los impactos \nde comprar los insumos en lugar de alquilarlos?, etc.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

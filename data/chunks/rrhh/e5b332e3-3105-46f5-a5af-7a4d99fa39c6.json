@@ -1,0 +1,12 @@
+{
+    "id": "e5b332e3-3105-46f5-a5af-7a4d99fa39c6",
+    "chunk": 19,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "221 \nCap. VII – Costo \nε Respuesta ejercicio 7.1 \n \nEstimación análoga \nVentajas \nDesventajas \n+ Rápido \n- Poco preciso \n+ Barato \n- Poca información del proyecto \n+ No hace falta detalle de actividades \n- Supone todos los proyectos iguales \nEstimación ascendente \nVentajas \nDesventajas \n+ Más preciso \n- Más lento y costoso \n+ Compromete a los miembros del \nequipo porque participan de las \nestimaciones \n- Tendencia a utilizar estimaciones sin \nfundamento cuando no se conocen \nbien las actividades \n+ Provee las bases para el monitoreo \ny control \n- Requiere bastante información del \nproyecto para su implementación \n \n M.D.O.: estimar los costos en función del Método de los Dígitos \nOscilantes, también conocido como “Manómetro”. \n \n Estimación paramétrica: utilizar información histórica para estimar \nlos costos futuros. Podrían ser modelos simples, como por ejemplo, \nestimar los costos de construcción con base en los valores históricos del",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

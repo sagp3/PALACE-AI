@@ -1,0 +1,12 @@
+{
+    "id": "e5573edb-6d84-46dd-a6ec-744d8ff09388",
+    "chunk": 97,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "información sobre el VNA, deberías suponer que el proyecto de mayor \nTIR es el mejor. \n \n \n Ejercicio 7.8 – Selección de proyectos según VNA \n \nSegún los datos de la tabla, ¿qué proyecto seleccionaría como el mejor? \n \nProyecto Inversión ($) VNA ($) \nA \n100 \n100 \nB \n50 \n80 \nC \n30 \n30 \nD \n20 \n20 \nE \n60 \n-20 \n \n Dedica 5 minutos a resolver este ejercicio \n \n \nVNA \nTasa de descuento \n26283 \n23445 \n0 \n-1461 \n7942 \nPr Norte \nPr Sur \nTIR Pr Norte \n9,7% \n5% \n10% \nTIR Pr Sur \n12,9%",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

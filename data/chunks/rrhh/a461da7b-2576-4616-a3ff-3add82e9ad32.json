@@ -1,0 +1,12 @@
+{
+    "id": "a461da7b-2576-4616-a3ff-3add82e9ad32",
+    "chunk": 73,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "costos para una compresión y así acelerar el proyecto. \nD \nPodría ser si no existiera la opción C, ya que con la ejecución rápida \nse agregan riesgos al proyecto. \n \nEn la tabla a continuación se presenta un ejemplo con el estado de avance de \nun proyecto utilizando la gestión del valor ganado. \n \nInforme de avance del Proyecto \nEDT \nPLAN ACTUAL \nCOSTO \nCRONOGRAMA \nPV \nEV AC \nCV \nCV / EV \nCPI \nSV \nSV / PV \nSPI \n1 \n10 \n10 \n12 \n-2 \n-20% \n0,83 \n0 \n0% \n1 \n2 \n20 \n25 \n15 \n10 \n40% \n1,67 \n5 \n25% \n1,25 \n3 \n40 \n30 \n45 -15 \n-50% \n0,67 -10 \n-25% \n0,75 \nTotal \n70 \n65 \n72 \n-7 \n-11% \n0,90 \n-5 \n-7% \n0,93",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

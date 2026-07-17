@@ -1,0 +1,12 @@
+{
+    "id": "2ca5caff-5325-4988-8be0-47288bfe1422",
+    "chunk": 62,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": " TCPI > 1: malo. Tenemos que mejorar la eficiencia para no exceder \nel presupuesto original.  \n TCPI < 1: bueno. Tenemos holgura para gastar más sin que esto \ngenere un exceso en el costo total del proyecto. \n \n  Que les hubiera costado a los amigos que inventaron esta fórmula \ndel TCPI cambiar denominador por numerados para que sigamos con la \nreglita nemotécnica que cuando se trata de valor ganado, > 1 es bueno \ny < 1 es malo.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

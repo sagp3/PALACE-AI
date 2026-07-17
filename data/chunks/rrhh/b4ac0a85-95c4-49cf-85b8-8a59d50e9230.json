@@ -1,0 +1,12 @@
+{
+    "id": "b4ac0a85-95c4-49cf-85b8-8a59d50e9230",
+    "chunk": 81,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "SVt = ES - AT = 1,5 – 1 = 0,5 (el proyecto está adelantado medio mes) \nSPIt = ES / AT = 1,5 / 1 =  1,50 (proyecto 50% más rápido que lo planificado) \n \n¿Cómo calculamos ES? \n \nHaciendo cálculos aburridos con una extrapolación lineal o con plantillas que \nya traen los cálculos armados19.  \n \nES = t + (EVt – PVt) / (PVt+1 – PVt) \nES = 1 + (40 – 20) / (60 – 20) = 1,5  \n \nCuidado! En aquellos casos que el EVt sea menor que PVt la fórmula de la \nextrapolación lineal debería cambiar a: ES = t-1 + (EVt – PVt-1) / (PVt – PVt-1). \n                                                 \n19 Walt Lipke. http://www.earnedschedule.com/Calculator.shtml  \n1,5 \nES \nAT \n$20 \n          1           2           3            4        meses \n$40 \n$60 \nPV \nEV",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

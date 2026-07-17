@@ -1,0 +1,12 @@
+{
+    "id": "3238ef9d-9ab1-46df-a2f8-533f05c29469",
+    "chunk": 51,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "1.000 \n1,50 \n2. Construcción 4.000 6.000 3.000 \n-3.000 \n0,50 \nTotal \n7.000 8.000 6.000 \n-2.000 \n0,75 \n \nAnalizando la variación del costo (CV), se puede concluir que en la actividad de \ndiseño se han gastado $1.000 menos de lo trabajado (CV = 1.000). Por otra \nparte, el índice de desempeño del costo de esta actividad es mayor a 1 (CPI = \n1,5), lo cual es bueno porque indica eficiencia. \n \nLa actividad de construcción está con problemas presupuestarios porque se \nhan gastado $3.000 más que el valor trabajado (VC = -3000) y su índice de \ndesempeño del costo negativo indica ineficiencia (CPI = 0,5). \n \nAnálisis del cronograma \n \nPara evaluar el avance en los tiempos del proyecto, se puede comparar el EV \ncon el PV. Esta comparación se suele hacer a través de la variación del \ncronograma (SV: Schedule variance) o con el índice de desempeño del \ncronograma (SPI; Schedule performance index). \n \n  Variación del cronograma: SV = EV – PV",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

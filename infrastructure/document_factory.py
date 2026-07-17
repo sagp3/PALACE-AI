@@ -11,9 +11,7 @@ from __future__ import annotations
 
 import uuid
 
-from core.domain import Area
-from core.domain import Document
-from core.domain import DocumentType
+from core.domain import Area, Document, DocumentType
 
 from .raw_document import RawDocument
 

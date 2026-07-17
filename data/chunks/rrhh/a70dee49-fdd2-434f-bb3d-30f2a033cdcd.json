@@ -1,0 +1,12 @@
+{
+    "id": "a70dee49-fdd2-434f-bb3d-30f2a033cdcd",
+    "chunk": 103,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "  Regla de decisión utilizando la relación B/C: \nSi B/C > 1 => Invertir (el VNA es positivo) \nSi B/C < 1 => No invertir (el VNA es negativo) \n \nLa relación B/C suele ser muy utilizada en proyectos de economía de la salud y \nen proyectos sociales. Este indicador lleva a la misma toma de decisiones que \nal utilizar el VNA.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

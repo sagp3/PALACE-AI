@@ -1,0 +1,12 @@
+{
+    "id": "6766bce1-df5c-47e8-acb1-1efbc2a2b2aa",
+    "chunk": 58,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Una forma más precisa, pero también más lenta y costosa, de estimar los \ncostos a la conclusión sería de la siguiente forma: \n   EAC = AC + Nueva estimación de los costos faltantes \n \nSi el equipo de proyecto cree que los CPI de cada actividad no concluida no \nson relevantes para proyectar el futuro, el costo estimado al finalizar sería el \ncosto devengado hasta la fecha actual de medición más el presupuesto \nactualizado de las tareas faltantes.  \n \nEn nuestro ejemplo podría estimarse el costo a la finalización de la siguiente \nforma: \nActividad \nAC \nETC \nExplicación \n1. Diseño \n$2.000 \n$0 \nYa está finalizada. \n2. Construcción \n$6.000 \n$6.300 \nAumentará el costo de materiales \n3. Pruebas \n? \n$1.200 \nAumentó el costo de la mano de obra \nTotal \n$8.000 \n$7.500 \n$15.500 = EAC \n \nÍndice de desempeño del trabajo por completar (TCPI) \n \nTCPI: to conclude performance index \n \nEste índice mide la relación entre lo que falta trabajar (BAC – EV) y los fondos",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

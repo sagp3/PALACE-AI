@@ -1,0 +1,12 @@
+{
+    "id": "7ca76875-8232-4124-a076-8bc740686bfd",
+    "chunk": 96,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "255 \nCap. VII – Costo \nPor ejemplo, para una tasa de descuento del 10% anual el Proyecto Sur \nresultó ser mejor que Norte, mientras que para una tasa de descuento del 5% \nanual, el Proyecto Norte es más rentable que Sur. \n \nLa TIR es la tasa de descuento que hace el VNA igual a cero. Demostración: \n \nVNA Norte = -140.000 +  7.000  +  20.000  +  25.000  +  60.000  +  90.000  =0 \n \n                         1,09704   1,097042    1,097043   1,097044   1,097045 \n \nVNA Sur  = -140.000 +  61.000  +  52.000  +  44.000  +  15.000  +  10.000 = 0 \n \n                        1,12933    1,129332   1,129333    1,129334    1,129335 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n La TIR no es un buen indicador para seleccionar entre proyectos. Sin \nembargo, al momento de rendir el examen, si no dispones de \ninformación sobre el VNA, deberías suponer que el proyecto de mayor \nTIR es el mejor. \n \n \n Ejercicio 7.8 – Selección de proyectos según VNA",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

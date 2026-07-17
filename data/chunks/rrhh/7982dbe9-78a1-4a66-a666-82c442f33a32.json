@@ -1,0 +1,12 @@
+{
+    "id": "7982dbe9-78a1-4a66-a666-82c442f33a32",
+    "chunk": 101,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "257 \nCap. VII – Costo \nmencione cuál debería ser el PRI óptimo de un proyecto. Por ejemplo, en \nproyectos de gran cambio tecnológico se exigen PRI cortos (1 o 2 años), \nmientras que en proyectos agrícolas pueden ser razonables PRI de 10 o 30 \naños.  \n \n¿Cuánto tiempo esperar un bosque para poder talarlo? ¿Cuántos años debo \nañejar un ron para salir al mercado?  \n \nUna vez más la respuesta de siempre es ¡Depende! \n \n El PRI que se exige a los proyectos para realizar una inversión es un \ncriterio muy arbitrario. \n \nNo debemos seleccionar un proyecto por su PRI sin evaluar antes su VNA. \nVolviendo al ejemplo presentado más arriba, si la tasa de descuento es del \n10% anual, en la tabla a continuación agregamos el VNA de cada alternativa. \n \nProyecto Año 0 Año 1 Año 2 Año 3 PRI  VNA ($) \nA \n-5000 \n2000 \n3000 \n3000 \n2 \n1.551  \nB \n-5000 \n5000 \n0 \n0 \n1 \n-$455 \nC \n-5000 \n4000 \n1000 \n5000 \n2 \n3.219  \n \nComo se puede observar, el proyecto B recupera la inversión en un año, pero",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "fe280c74-d056-4732-84ff-a9895b801013",
+    "chunk": 74,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "245 \nCap. VII – Costo \nOtro informe gráfico que suele ser útil para indicar la evolución del \ncronograma y los costos se presenta en el gráfico a continuación.   \n \nAvance de tiempo y costo \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Ejercicio 7.5 – Informe de desempeño \n \nComplete las celdas en blanco del “Project SUDOKU” en la Tabla a \ncontinuación e interprete los resultados. \n \nEDT \nPLAN \nACTUAL \nCOSTO \nCRONOGRAMA \nPV \n  EV    AC   CV CV/EV \nCPI \n  SV SV/PV  SPI \nPlanificación \n  \n30 \n25 \n5 \n  \n  \n0 \n  \n  \nConstrucción \n100 \n  \n100 \n  \n  \n0,80 \n  \n  \n  \nPruebas \n20 \n10 \n  \n  \n0% \n  \n  \n  \n0,5 \nTotal \n \n \n \n \n \n \n \n \n \n \n Dedica 15 minutos a resolver este ejercicio repasando bien las fórmulas de \nla gestión del valor ganado e interpretando los resultados.  \n \n \n      0.8    0.9        1         1.1    1.2   CPI \n      0.8    0.9                   1.1    1.2    \nSPI \nRápido y \nbarato \nRápido y \nCaro \nLento y \nbarato \nLento y \ncaro",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "89ab15fe-2169-4da5-a911-c56b1b2c8704",
+    "chunk": 71,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "166,67 \nFalta gastar $166,67 para finalizar el \nproyecto \nVAC \nBAC – EAC \n-16,67 \nSe estima gastar $16,67 más de lo \npresupuestado \n \n \nResumiendo la Gestión del valor ganado \nNombre \nFórmula \nInterpretación \nVariación del costo (CV) \nEV - AC \n > 0 Eficiente \n < 0 Ineficiente \nVariación del cronograma (SV) \nEV - PV \n> 0 Acelerado \n< 0 Lento \nÍndice de desempeño del costo \n(CPI) \nEV / AC \nPor cada $ gastado trabajamos \n$___ \nÍndice \nde \ndesempeño \ndel \ncronograma (SPI) \nEV / PV \nEstamos progresando a un ___% \nde lo planeado \nÍndice de desempeño del trabajo \npor completar (TCPI) \n(BAC-EV) / \n(BAC – AC) \nCuánto debo disminuir los fondos \nrestantes para cumplir con el BAC \nEstimación a la conclusión (EAC) \nBAC / CPI \nCuánto \ncostará \nel \nproyecto \nal \nfinalizar \nEstimación hasta la conclusión \n(ETC) \nEAC - AC \nCuánto más costará el proyecto \nVariación a la conclusión (VAC) \nBAC - EAC \nDiferencia entre presupuesto y lo \nque espero gastar",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

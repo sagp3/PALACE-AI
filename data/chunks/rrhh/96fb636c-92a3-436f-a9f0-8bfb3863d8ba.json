@@ -1,0 +1,12 @@
+{
+    "id": "96fb636c-92a3-436f-a9f0-8bfb3863d8ba",
+    "chunk": 98,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n256 \nε Respuesta ejercicio 7.8  \n \nPara responder qué proyecto es el mejor necesitamos mayor información \nsobre la tipología de proyectos y la restricción presupuestaria.  \n \na) Suponiendo proyectos independientes sin restricciones de fondos para \ninvertir, deberíamos realizar todos aquellos proyectos con VNA positivo \n(A, B, C, D) y no invertir en el proyecto E por tener un VNA negativo. \n \nb) Suponiendo proyectos independientes pero con un presupuesto limitado \nde $100, deberíamos evaluar las distintas combinaciones de proyectos \nque maximicen la sumatoria de sus respectivos VNA. En este ejemplo, \nconvendría invertir los $100 en los proyectos B, C y D para tener un \nVNA de $130 ($80 de B + $30 de C + $20 de D). \n \nc) Suponiendo proyectos excluyentes entre sí y no repetibles, o sea, si se \nrealiza uno no se puede llevar a cabo otro, y no habiendo restricción de \ncapital para invertir, deberíamos seleccionar el proyecto de mayor VNA \n(proyecto A).",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

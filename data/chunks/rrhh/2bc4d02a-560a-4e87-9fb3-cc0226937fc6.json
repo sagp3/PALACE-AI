@@ -1,0 +1,12 @@
+{
+    "id": "2bc4d02a-560a-4e87-9fb3-cc0226937fc6",
+    "chunk": 94,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Sur es la mejor alternativa. \n \n \nb) VNA de cada proyecto con una tasa de descuento del 5% anual: \n \nVNA Norte = -140.000 +  7.000  +  20.000  +  25.000  +  60.000  +  90.000  \n  \n                            1,05        1,052         1,053         1,054        1,055 \n VNA Norte = $26.283    \n \n VNA Sur    = -140.000 +  61.000  +  52.000  +  44.000  +  15.000  +  10.000  \n  \n                              1,05          1,052         1,053        1,054        1,055 \n VNA Sur    = $23.445    \n \nEl Proyecto Norte es rentable, gano $26.283, luego de recuperar la inversión \nde $140.000 y el 5% de $140.000 durante 5 años. \nEl Proyecto Sur es rentable, gano $23.445, luego de recuperar la inversión de \n$140.000 y el 5% de $140.000 durante 5 años. \nDado que ambos proyectos tienen un VNA positivo utilizando una tasa de \ndescuento del 5%, elijo el proyecto Norte por ser el más rentable. \n \n \nc) ¿Cuál es la tasa interna de retorno de cada proyecto?",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "ff05a85c-3f70-4c27-bffe-2ffea9f89e4f",
+    "chunk": 57,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n238 \n Proyección de costo considerando el CPI y el SPI \n \nSupuesto: los costos futuros dependerán de la ineficiencia actual del CPI y el \nSPI, ya que los retrasos en el cronograma afectarán también los costos.  \n   EAC = AC + ((BAC – EV) / (CPI x SPI)) \n   EAC = $8.000 + (($10.000 - $6.000) / (0,75 x 0,86) = $14.202 \n   ETC = EAC – AC = $6.202 \n \nSe podría considerar cualquier otra proporción para ponderar los índices CPI y \nSPI. Por ejemplo, se podría tomar un 80% de CPI y un 20% del SPI. En este \ncaso el cálculo sería: \n    \n   EAC = AC + ((BAC – EV) / (80% x CPI + 20% x SPI)) \n   EAC = $8.000 + (($10.000 - $6.000) / (0,6 + 0,172) = $13.181 \n   ETC = EAC – AC = $5.181 \n \n Proyección de costo basado en una nueva estimación \n \nUna forma más precisa, pero también más lenta y costosa, de estimar los \ncostos a la conclusión sería de la siguiente forma: \n   EAC = AC + Nueva estimación de los costos faltantes",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

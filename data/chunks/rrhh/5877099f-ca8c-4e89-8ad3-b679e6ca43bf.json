@@ -1,0 +1,12 @@
+{
+    "id": "5877099f-ca8c-4e89-8ad3-b679e6ca43bf",
+    "chunk": 68,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n242 \n Ejercicio 7.4 – Gestión del valor ganado – Proyecto Pinitos \n \nTe han encomendado plantar 4 pinos. La duración estimada para finalizar cada \npino es de 1 día, con un costo estimado de $100 por pino. \n \nNo podrás implementar la ejecución rápida de actividades, por lo que podrás \nplantar un pino, sólo si ya fue plantado su pino predecesor. \n \nEl informe del proyecto al finalizar el tercer día es el siguiente: \n \nPlan \n \n \n \n \n \nDía 1 \nDía 2 \nDía 3 \nDía 4 \nCosto s/ plan       $100 \n      $100 \n       $100 \n       $100 \nReal \n \n                   \n \nAvance \n100% \n                   100%           40% \n                   $120           $30 \n0% \nCosto real       $100 \n \n \nComo se puede observar, plantar el pino 2 finalizó más tarde de lo previsto, lo \nque postergó el inicio del tercer pino. Al finalizar el tercer día, el pino 3 tiene \nsolamente un 40% de avance. \n \nCompleta la Tabla a continuación con el estado del proyecto. \n \nIndicador \nCálculo",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "8f1daf9b-ab97-4317-b412-3da843291b1f",
+    "chunk": 93,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n254 \nε Respuesta ejercicio 7.7  \n \na) VNA de cada proyecto con una tasa de descuento del 10% anual: \n \nVNA Norte = -140.000 +  7.000  +  20.000  +  25.000  +  60.000  +  90.000   \n1,1          1,12          1,13          1,14          1,15 \n VNA Norte = $-1.461    \n \nVNA Sur    = -140.000 +  61.000  +  52.000  +  44.000  +  15.000  +  10.000   \n \n                              1,1           1,12           1,13            1,14          1,15 \n VNA Sur    = $7.942    \n \nEl Proyecto Norte no es rentable porque pierdo $1.461. No lo debería realizar \naunque sea la única alternativa. \nEl Proyecto Sur es rentable, gano $7.942, luego de recuperar la inversión de \n$140.000 y el 10% de $140.000 durante 5 años. Ergo, invertir en el proyecto \nSur es la mejor alternativa. \n \n \nb) VNA de cada proyecto con una tasa de descuento del 5% anual: \n \nVNA Norte = -140.000 +  7.000  +  20.000  +  25.000  +  60.000  +  90.000",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

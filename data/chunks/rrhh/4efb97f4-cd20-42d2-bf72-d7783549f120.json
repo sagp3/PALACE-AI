@@ -1,0 +1,12 @@
+{
+    "id": "4efb97f4-cd20-42d2-bf72-d7783549f120",
+    "chunk": 39,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": " Requisitos de financiamiento \n Datos de desempeño del trabajo \n \n¿Qué herramientas podemos utilizar? \n Gestión del valor ganado (EVM): evaluar el estado de avance del \nproyecto en relación a su línea base para analizar el avance de los \ncostos y tiempos. Indicadores: PV, EV, AC, BAC (Ver próxima sección). \n Análisis de variaciones: comparar el desempeño real del proyecto con \nsu línea base de costo y cronograma. Indicadores: CV, CPI, SV, SPI, \nVAC (Ver próxima sección). \n Pronósticos: re-estimar en forma periódica cuál será el costo estimado \na la finalización del proyecto. Indicadores: EAC, ETC (Ver próxima \nsección). \n Análisis de reserva: monitorear el estado de las reservas de \ncontingencias y de gestión, para evaluar si deben ser eliminadas, \nreducidas o reforzadas. \n Índice de desempeño del trabajo por completar (TCPI): estimar \ncuánto debo ajustar los desembolsos de costos para cumplir con el \npresupuesto aprobado. Indicador: TCPI (Ver próxima sección).",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

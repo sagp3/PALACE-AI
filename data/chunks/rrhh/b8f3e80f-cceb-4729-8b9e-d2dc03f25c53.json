@@ -1,0 +1,12 @@
+{
+    "id": "b8f3e80f-cceb-4729-8b9e-d2dc03f25c53",
+    "chunk": 47,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "se presenta en la tabla a continuación. \n \nPorcentaje de avance y valor ganado (EV) \nActividad \nMes 1 Mes 2 Mes 3 Mes 4 Mes 5 Mes 6 \nTotal \n1. Diseño \n60% \n100% 100% 100% \n \n \n3.000 \n2. Construcción \n \n \n20% \n50% \n \n \n6.000 \n3. Pruebas \n \n \n \n \n \n \n1.000 \nValor ganado (EV) \n1. Diseño \n1.800 3.000 \n3.000 \n3.000 \n \n \n \n2. Construcción \n \n \n1.200 \n3.000 \n \n \n \n3. Pruebas \n \n \n \n \n \n \n \nTotal \n1.800 3.000 \n4.200 \n6.000 \n \n \n \n% Avance \n18% \n30% \n42% \n60% \n \n \n \n \nDesvíos presupuestarios \n \nUna vez calculado el EV, se puede llevar a cabo un adecuado monitoreo de los \ndesvíos presupuestarios del proyecto. El gráfico a continuación resume la",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "885d8130-d0a3-4991-8e68-10f98d3d0417",
+    "chunk": 43,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "Director de Proyectos \n232 \n El PV coincide con la línea base de costo o sea el costo total acumulado.  \n \nCosto real (AC) \n \nUna vez que el proyecto está en ejecución, se debe calcular cuál es el costo \nreal (AC) o costo devengado del trabajo realizado. En la tabla a continuación \nse indican los costos reales devengados de cada actividad hasta el mes 4.  \n \nCosto real (AC) \nActividad \nMes 1 Mes 2 Mes 3 Mes 4 Mes 5 Mes 6 \nTotal \n1. Diseño \n1.000 1.000 \n \n \n \n \n2.000 \n2. Construcción \n \n \n2.000 4.000 \n \n \n6.000 \n3. Pruebas \n \n \n \n \n \n \n \nTotal \n1.000 1.000 2.000 4.000 \n \n \n \nAcumulado (AC) 1.000 2.000 4.000 8.000 \n \n \n- \n% Acumulado \n10% \n20% \n40% \n80% \n \n \n- \n \nAnálisis presupuestario tradicional \n \nSi se aplican métodos simples de análisis de variación de costos, al comparar \nel AC con el PV, se puede decir que en el mes 3 el PV ($5.000) es superior al \nAC ($4.000), lo que indicaría que el proyecto está bien porque gastó menos de",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

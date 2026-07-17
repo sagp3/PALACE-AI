@@ -1,0 +1,12 @@
+{
+    "id": "9cb049c9-f3d8-431c-9d98-7752e246170f",
+    "chunk": 89,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "los $50.000 y el 8% anual de $50.000 durante la vida del proyecto ($4000 por \naño); y además obtiene $10.000 adicionales a moneda del día de hoy. \n \n Tasa interna de retorno (TIR) \n \nLa tasa interna de retorno es la tasa de descuento que hace el VNA igual a \ncero. Este indicador mide la rentabilidad del proyecto en términos \nporcentuales. Cuando la TIR es superior a la tasa de descuento (costo de \noportunidad del dinero o tasa de interés), el proyecto es rentable. \n \n  Regla de decisión utilizando la TIR: \nSi TIR > tasa de interés => Invertir \nSi TIR < tasa de interés => No invertir \nSupuesto: Al principio flujos negativos y luego positivos \n \nUna forma simple de calcular la TIR es con la herramienta Excel: \n1. Construir el flujo de fondos neto del proyecto \n2. Seleccionar los valores del flujo de fondos neto \n3. Insertar / Funciones / Financieras / TIR \n4. ¡Bingo! Tendrás el valor de la TIR. \n \n ¿Cómo se calcula la TIR de un proyecto?",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

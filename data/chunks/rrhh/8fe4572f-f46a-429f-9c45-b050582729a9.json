@@ -1,0 +1,12 @@
+{
+    "id": "8fe4572f-f46a-429f-9c45-b050582729a9",
+    "chunk": 95,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": "descuento del 5%, elijo el proyecto Norte por ser el más rentable. \n \n \nc) ¿Cuál es la tasa interna de retorno de cada proyecto?  \n \nUtilizando el Excel o una calculadora financiera, se obtiene lo siguiente: \nTIR Proyecto Norte = 9,704% anual \nTIR Proyecto Sur =  12,933% anual \n \nSe observa que la TIR de Norte es inferior a la TIR de Sur, entonces se podría \npensar que el Proyecto Sur es mejor que el Norte. Sin embargo, para saber \nqué proyecto es más rentable hay que calcular el VNA.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

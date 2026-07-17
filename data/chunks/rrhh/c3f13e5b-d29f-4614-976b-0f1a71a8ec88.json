@@ -1,0 +1,12 @@
+{
+    "id": "c3f13e5b-d29f-4614-976b-0f1a71a8ec88",
+    "chunk": 76,
+    "total_chunks": 104,
+    "document": "manual.pdf",
+    "content": " \nCPI = 0,8. Sobrecosto de 20% en relación a lo gastado ($20 / $100). \n \nSPI = 0,8. Se ha trabajado un 20% menos que lo planificado, por lo que \nla actividad está retrasada. \n \nActividad Pruebas \n \nCV = 0 o CPI = 1. Se gastó igual a lo estimado en el plan original.  \n \nSPI = 0,5. Se ha trabajado un 50% menos que lo planificado, por lo que \nla actividad está retrasada. \n \nProyecto general \n \nAnálisis del costo: se ha gastado $15 más de lo que debería haber \ngastado en función del trabajo realizado, lo que representa un 12,5% de \nsobre-costo. \n \nAnálisis del cronograma: se ha trabajado $30 (o 20%) menos de lo que \nse había planificado, lo que representa un retraso.",
+    "metadata": {
+        "pages": 45,
+        "path": "data\\documents\\rrhh\\manual.pdf",
+        "extension": ".pdf"
+    }
+}

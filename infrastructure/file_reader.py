@@ -8,8 +8,7 @@ Every file reader must implement this interface.
 
 from __future__ import annotations
 
-from abc import ABC
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 from pathlib import Path
 
 from .raw_document import RawDocument
