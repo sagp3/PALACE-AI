@@ -37,7 +37,7 @@ class IngestKnowledge:
             Business area that owns the document.
         """
 
-        document = self._document_factory.create(
+        self._document_factory.create(
             file_path=file_path,
             area=area,
         )

@@ -25,7 +25,6 @@ class ChromaVectorStore(VectorStore):
         self,
         collection_name: str = "palace_ai",
     ) -> None:
-
         self._client = chromadb.PersistentClient(
             path="chromadb",
         )
@@ -63,17 +62,28 @@ class ChromaVectorStore(VectorStore):
         self,
         embedding: list[float],
         top_k: int = 20,
+        document: str | None = None,
     ) -> QueryResult:
         """
         Performs semantic search.
+
+        If a document is provided, the search
+        is restricted to that document.
         """
 
-        return self._collection.query(
-            query_embeddings=[embedding],
-            n_results=top_k,
-            include=[
+        kwargs = {
+            "query_embeddings": [embedding],
+            "n_results": top_k,
+            "include": [
                 "documents",
                 "metadatas",
                 "distances",
             ],
-        )
+        }
+
+        if document is not None:
+            kwargs["where"] = {
+                "document": document,
+            }
+
+        return self._collection.query(**kwargs)

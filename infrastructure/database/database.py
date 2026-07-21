@@ -16,7 +16,6 @@ class Database:
     """
 
     def __init__(self) -> None:
-
         database_path = Path("data/palace_ai.db")
 
         database_path.parent.mkdir(
@@ -33,10 +32,10 @@ class Database:
         return self._connection
 
     def _create_tables(self) -> None:
-
         cursor = self._connection.cursor()
 
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS documents (
 
                 hash TEXT PRIMARY KEY,
@@ -45,6 +44,7 @@ class Database:
 
                 indexed_at TEXT NOT NULL
             )
-            """)
+            """
+        )
 
         self._connection.commit()

@@ -4,18 +4,18 @@ PALACE AI
 Document Indexer
 """
 
+from __future__ import annotations
+
+from datetime import datetime
 from pathlib import Path
 
+from core.document import Document
 from core.document_hasher import DocumentHasher
 from infrastructure.chunkers.recursive_chunker import RecursiveChunker
 from infrastructure.database.document_repository import DocumentRepository
-from infrastructure.embeddings.openai_embedding_model import (
-    OpenAIEmbeddingModel,
-)
-from infrastructure.pdf_reader import PdfReader
-from infrastructure.vectorstores.chroma_vector_store import (
-    ChromaVectorStore,
-)
+from infrastructure.embeddings.openai_embedding_model import OpenAIEmbeddingModel
+from infrastructure.reader_registry import ReaderRegistry
+from infrastructure.vectorstores.chroma_vector_store import ChromaVectorStore
 from infrastructure.writers.chunk_writer import ChunkWriter
 
 
@@ -25,39 +25,51 @@ class Indexer:
     """
 
     def __init__(self) -> None:
+        self.reader_registry = ReaderRegistry()
 
-        self.reader = PdfReader()
         self.hasher = DocumentHasher()
+
         self.repository = DocumentRepository()
+
         self.chunker = RecursiveChunker()
+
         self.writer = ChunkWriter()
+
         self.embedding_model = OpenAIEmbeddingModel()
+
         self.vector_store = ChromaVectorStore()
 
     def index(
         self,
-        pdf_path: Path,
-        chunks_output: Path,
+        file_path: Path,
     ) -> None:
         """
-        Index a PDF document.
+        Indexes any supported document.
         """
 
         print("\nReading document...")
 
-        document = self.reader.read(pdf_path)
+        reader = self.reader_registry.get_reader(file_path)
 
-        print("✓ Document loaded")
+        document = reader.read(file_path)
+
+        print(f"✓ {document.filename} loaded")
 
         document_hash = self.hasher.hash(document)
 
         print(f"✓ Hash: {document_hash[:16]}...")
 
         if self.repository.exists(document_hash):
-
             print("\n✓ Document already indexed.")
 
             return
+
+        chunks_output = Path("data/chunks") / document_hash[:16]
+
+        chunks_output.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
         print("\nGenerating chunks...")
 
@@ -65,14 +77,9 @@ class Indexer:
 
         print(f"✓ {len(chunks)} chunks generated")
 
-        # ---------------------------------------------------------
-        # DEBUG: Mostrar los primeros chunks
-        # ---------------------------------------------------------
-
         print("\n========== FIRST 10 CHUNKS ==========\n")
 
         for chunk in chunks[:10]:
-
             print("-" * 60)
 
             print(f"Chunk {chunk.chunk_index}/{chunk.total_chunks}")
@@ -84,9 +91,8 @@ class Indexer:
             print()
 
         print("=" * 60)
-        print()
 
-        # ---------------------------------------------------------
+        print()
 
         print("Saving chunks...")
 
@@ -112,10 +118,15 @@ class Indexer:
 
         print("✓ ChromaDB updated")
 
-        self.repository.save(
-            document_hash=document_hash,
+        indexed_document = Document(
             filename=document.filename,
+            file_hash=document_hash,
+            indexed_at=datetime.now(),
+            total_chunks=len(chunks),
+            metadata=document.metadata,
         )
+
+        self.repository.save(indexed_document)
 
         print("✓ Document registered")
 

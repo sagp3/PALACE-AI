@@ -11,15 +11,35 @@ from application.indexer import Indexer
 
 def index_documents() -> None:
     """
-    Index the sample PDF.
+    Index any supported document.
     """
+
+    print("\nDocument indexing")
+    print("-" * 80)
+
+    file_input = input("Document path: ").strip()
+
+    if not file_input:
+        print("\nNo document selected.")
+        return
+
+    file_path = Path(file_input)
+
+    if not file_path.exists():
+        print("\nDocument not found.")
+        return
 
     indexer = Indexer()
 
-    indexer.index(
-        pdf_path=Path("data/documents/rrhh/manual.pdf"),
-        chunks_output=Path("data/chunks/rrhh"),
-    )
+    try:
+        indexer.index(
+            file_path=file_path,
+        )
+
+        print("\nDocument indexed successfully.")
+
+    except Exception as error:
+        print(f"\nError while indexing:\n{error}")
 
 
 def chat_mode() -> None:
@@ -35,7 +55,6 @@ def chat_mode() -> None:
     print("Type 'exit' to quit.\n")
 
     while True:
-
         question = input("> ").strip()
 
         if not question:
@@ -45,7 +64,6 @@ def chat_mode() -> None:
             break
 
         try:
-
             response = chat.ask(question)
 
             print("\nAnswer\n")
@@ -53,11 +71,9 @@ def chat_mode() -> None:
             print(response.answer)
 
             if response.sources:
-
                 print("\nSources\n")
 
                 for chunk in response.sources:
-
                     print(
                         f"- {chunk.source_document} "
                         f"(Chunk {chunk.chunk_index}/{chunk.total_chunks})"
@@ -66,12 +82,10 @@ def chat_mode() -> None:
             print()
 
         except Exception as error:
-
             print(f"\nError: {error}\n")
 
 
 def main() -> None:
-
     print("=" * 80)
     print("PALACE AI")
     print("=" * 80)
@@ -82,15 +96,12 @@ def main() -> None:
     option = input("\nSelect an option: ").strip()
 
     if option == "1":
-
         index_documents()
 
     elif option == "2":
-
         chat_mode()
 
     else:
-
         print("\nInvalid option.")
 
 

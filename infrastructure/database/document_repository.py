@@ -6,116 +6,156 @@ Document Repository
 
 from __future__ import annotations
 
+import sqlite3
 from datetime import datetime
+from pathlib import Path
 
-from .database import Database
+from core.document import Document
 
 
 class DocumentRepository:
     """
-    Handles persistence of indexed documents.
+    Repository responsible for managing indexed documents.
     """
 
-    def __init__(self) -> None:
-        self._database = Database()
+    def __init__(
+        self,
+        database_path: str = "data/palace_ai.db",
+    ) -> None:
+        Path(database_path).parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        self._connection = sqlite3.connect(
+            database_path,
+            check_same_thread=False,
+        )
+
+        self._connection.row_factory = sqlite3.Row
+
+        self._connection.execute("PRAGMA foreign_keys = ON")
+
+        self._create_table()
+
+    def _create_table(
+        self,
+    ) -> None:
+        self._connection.execute(
+            """
+            CREATE TABLE IF NOT EXISTS documents (
+
+                hash TEXT PRIMARY KEY,
+
+                filename TEXT NOT NULL,
+
+                indexed_at TEXT NOT NULL
+            )
+            """
+        )
+
+        self._connection.commit()
 
     def exists(
         self,
-        document_hash: str,
+        file_hash: str,
     ) -> bool:
-        """
-        Returns True if a document hash already exists.
-        """
-
-        cursor = self._database.connection.cursor()
-
-        cursor.execute(
+        cursor = self._connection.execute(
             """
             SELECT 1
             FROM documents
             WHERE hash = ?
-            LIMIT 1
             """,
-            (document_hash,),
+            (file_hash,),
         )
 
         return cursor.fetchone() is not None
 
     def save(
         self,
-        document_hash: str,
-        filename: str,
+        document: Document,
     ) -> None:
-        """
-        Stores an indexed document.
-        """
-
-        cursor = self._database.connection.cursor()
-
-        cursor.execute(
+        self._connection.execute(
             """
-            INSERT INTO documents (
+            INSERT OR REPLACE
+            INTO documents
+            (
                 hash,
                 filename,
                 indexed_at
             )
-            VALUES (?, ?, ?)
+            VALUES
+            (
+                ?,
+                ?,
+                ?
+            )
             """,
             (
-                document_hash,
-                filename,
-                datetime.utcnow().isoformat(),
+                document.file_hash,
+                document.filename,
+                document.indexed_at.isoformat(),
             ),
         )
 
-        self._database.connection.commit()
+        self._connection.commit()
+
+    def list_documents(
+        self,
+    ) -> list[Document]:
+        cursor = self._connection.execute(
+            """
+            SELECT
+                filename,
+                hash,
+                indexed_at
+            FROM documents
+            ORDER BY filename
+            """
+        )
+
+        documents: list[Document] = []
+
+        for row in cursor.fetchall():
+            documents.append(
+                Document(
+                    filename=row["filename"],
+                    file_hash=row["hash"],
+                    indexed_at=datetime.fromisoformat(row["indexed_at"]),
+                )
+            )
+
+        return documents
 
     def delete(
         self,
-        document_hash: str,
+        file_hash: str,
     ) -> None:
-        """
-        Removes a document from the registry.
-        """
-
-        cursor = self._database.connection.cursor()
-
-        cursor.execute(
+        self._connection.execute(
             """
             DELETE
             FROM documents
             WHERE hash = ?
             """,
-            (document_hash,),
+            (file_hash,),
         )
 
-        self._database.connection.commit()
+        self._connection.commit()
 
-    def list_documents(
+    def count(
         self,
-    ) -> list[dict]:
-        """
-        Returns all indexed documents.
-        """
-
-        cursor = self._database.connection.cursor()
-
-        cursor.execute("""
-            SELECT
-                hash,
-                filename,
-                indexed_at
+    ) -> int:
+        cursor = self._connection.execute(
+            """
+            SELECT COUNT(*)
             FROM documents
-            ORDER BY indexed_at DESC
-            """)
+            """
+        )
 
-        rows = cursor.fetchall()
+        return cursor.fetchone()[0]
 
-        return [
-            {
-                "hash": row[0],
-                "filename": row[1],
-                "indexed_at": row[2],
-            }
-            for row in rows
-        ]
+    def close(
+        self,
+    ) -> None:
+        if self._connection:
+            self._connection.close()

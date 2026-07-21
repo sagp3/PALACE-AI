@@ -27,7 +27,6 @@ class DocumentFactory:
         area: Area,
         document_type: DocumentType,
     ) -> Document:
-
         return Document(
             id=str(uuid.uuid4()),
             name=raw_document.filename,

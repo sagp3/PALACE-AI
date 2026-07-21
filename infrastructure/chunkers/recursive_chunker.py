@@ -24,7 +24,6 @@ class RecursiveChunker(Chunker):
         chunk_size: int = 1000,
         chunk_overlap: int = 200,
     ) -> None:
-
         self._splitter = RecursiveCharacterTextSplitter(
             chunk_size=chunk_size,
             chunk_overlap=chunk_overlap,
@@ -34,7 +33,6 @@ class RecursiveChunker(Chunker):
         self,
         document: RawDocument,
     ) -> list[Chunk]:
-
         parts = self._splitter.split_text(document.content)
 
         chunks: list[Chunk] = []
@@ -42,7 +40,6 @@ class RecursiveChunker(Chunker):
         total = len(parts)
 
         for index, content in enumerate(parts, start=1):
-
             chunks.append(
                 Chunk(
                     content=content,

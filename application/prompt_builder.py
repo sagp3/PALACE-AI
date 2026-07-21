@@ -18,7 +18,6 @@ class PromptBuilder:
         self,
         max_context_chars: int = 12000,
     ) -> None:
-
         self._max_context_chars = max_context_chars
 
     def build(
@@ -26,8 +25,8 @@ class PromptBuilder:
         question: str,
         chunks: list[Chunk],
     ) -> str:
-
-        context = "\n\n".join(f"""
+        context = "\n\n".join(
+            f"""
 Document:
 {chunk.source_document}
 
@@ -36,7 +35,9 @@ Chunk:
 
 Content:
 {chunk.content}
-""".strip() for chunk in chunks)
+""".strip()
+            for chunk in chunks
+        )
 
         context = context[: self._max_context_chars]
 

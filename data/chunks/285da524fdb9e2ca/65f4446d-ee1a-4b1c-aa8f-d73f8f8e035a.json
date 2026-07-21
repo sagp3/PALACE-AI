@@ -1,0 +1,13 @@
+{
+    "id": "65f4446d-ee1a-4b1c-aa8f-d73f8f8e035a",
+    "chunk": 1,
+    "total_chunks": 1,
+    "document": "productos.csv",
+    "content": "Row 1\nProducto: Cama Eco\nPrecio: 500000\nStock: 10\n\nRow 2\nProducto: Cama Alta\nPrecio: 700000\nStock: 5\n\nRow 3\nProducto: Base Tapizada\nPrecio: 450000\nStock: 8",
+    "metadata": {
+        "rows": 3,
+        "columns": 3,
+        "extension": ".csv",
+        "path": "data\\documents\\productos.csv"
+    }
+}

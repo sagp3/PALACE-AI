@@ -6,26 +6,23 @@ Knowledge Retriever
 
 from __future__ import annotations
 
+from application.document_context import DocumentContext
 from core.chunk import Chunk
-from infrastructure.embeddings.openai_embedding_model import (
-    OpenAIEmbeddingModel,
-)
-from infrastructure.vectorstores.chroma_vector_store import (
-    ChromaVectorStore,
-)
+from infrastructure.embeddings.openai_embedding_model import OpenAIEmbeddingModel
+from infrastructure.vectorstores.chroma_vector_store import ChromaVectorStore
 
 
 class KnowledgeRetriever:
     """
-    Retrieves the most relevant chunks while
-    avoiding redundant context.
+    Retrieves relevant chunks from ChromaDB.
     """
 
     def __init__(self) -> None:
-
         self._embedding_model = OpenAIEmbeddingModel()
 
         self._vector_store = ChromaVectorStore()
+
+        self._context = DocumentContext()
 
     def retrieve(
         self,
@@ -41,6 +38,7 @@ class KnowledgeRetriever:
         results = self._vector_store.search(
             embedding=embedding,
             top_k=20,
+            document=self._context.active_document,
         )
 
         if (
@@ -68,8 +66,8 @@ class KnowledgeRetriever:
             documents,
             metadatas,
             distances,
+            strict=False,
         ):
-
             normalized = " ".join(content.split())
 
             if normalized in seen_contents:
@@ -122,3 +120,24 @@ class KnowledgeRetriever:
                 break
 
         return chunks
+
+    def set_active_document(
+        self,
+        filename: str | None,
+    ) -> None:
+        """
+        Sets the active document.
+
+        None means search across all documents.
+        """
+
+        self._context.set_active_document(filename)
+
+    def clear_active_document(
+        self,
+    ) -> None:
+        """
+        Clears the active document.
+        """
+
+        self._context.clear()

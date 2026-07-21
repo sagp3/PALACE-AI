@@ -10,7 +10,6 @@ from enum import Enum
 
 
 class Intent(str, Enum):
-
     QUESTION = "question"
 
     SUMMARY = "summary"
@@ -29,7 +28,6 @@ class IntentDetector:
         self,
         question: str,
     ) -> Intent:
-
         text = question.lower().strip()
 
         summary_words = (

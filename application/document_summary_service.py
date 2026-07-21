@@ -18,7 +18,6 @@ class DocumentSummaryService:
     """
 
     def __init__(self) -> None:
-
         self._retriever = KnowledgeRetriever()
 
         self._llm = OllamaLLM()

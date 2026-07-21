@@ -65,13 +65,11 @@ class PdfReader(FileReader):
         # --------------------------------------------------
 
         try:
-
             pdf = fitz.open(file_path)
 
             pages = []
 
             for page in pdf:
-
                 text = page.get_text()
 
                 if text.strip():
@@ -92,7 +90,6 @@ class PdfReader(FileReader):
             )
 
         except Exception as exception:
-
             raise RuntimeError(
                 f"Unable to read PDF '{file_path}': {exception}"
             ) from exception

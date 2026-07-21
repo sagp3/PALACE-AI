@@ -21,7 +21,6 @@ class OllamaLLM(LLM):
         model: str = "qwen3:8b",
         host: str = "http://localhost:11434",
     ) -> None:
-
         self._client = Client(host=host)
 
         self._model = model

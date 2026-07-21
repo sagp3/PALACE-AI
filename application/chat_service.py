@@ -6,23 +6,12 @@ Chat Service
 
 from __future__ import annotations
 
-from application.document_summary_service import (
-    DocumentSummaryService,
-)
-from application.intent_detector import (
-    Intent,
-    IntentDetector,
-)
-from application.knowledge_retriever import (
-    KnowledgeRetriever,
-)
-from application.prompt_builder import (
-    PromptBuilder,
-)
+from application.document_summary_service import DocumentSummaryService
+from application.intent_detector import Intent, IntentDetector
+from application.knowledge_retriever import KnowledgeRetriever
+from application.prompt_builder import PromptBuilder
 from core.chat_response import ChatResponse
-from infrastructure.llm.ollama_llm import (
-    OllamaLLM,
-)
+from infrastructure.llm.ollama_llm import OllamaLLM
 
 
 class ChatService:
@@ -32,7 +21,6 @@ class ChatService:
     """
 
     def __init__(self) -> None:
-
         self._intent_detector = IntentDetector()
 
         self._retriever = KnowledgeRetriever()
@@ -75,10 +63,9 @@ class ChatService:
         chunks = self._retriever.retrieve(question)
 
         if not chunks:
-
             return ChatResponse(
                 answer=(
-                    "I couldn't find relevant information " "in the indexed documents."
+                    "I couldn't find relevant information in the indexed documents."
                 ),
                 sources=[],
             )
@@ -115,7 +102,7 @@ class ChatService:
         """
 
         return ChatResponse(
-            answer=("Topic extraction is not implemented yet."),
+            answer="Topic extraction is not implemented yet.",
             sources=[],
         )
 
@@ -128,6 +115,27 @@ class ChatService:
         """
 
         return ChatResponse(
-            answer=("Keyword extraction is not implemented yet."),
+            answer="Keyword extraction is not implemented yet.",
             sources=[],
         )
+
+    def set_active_document(
+        self,
+        filename: str | None,
+    ) -> None:
+        """
+        Restricts retrieval to a single document.
+
+        None means search across all indexed documents.
+        """
+
+        self._retriever.set_active_document(filename)
+
+    def clear_active_document(
+        self,
+    ) -> None:
+        """
+        Clears the active document filter.
+        """
+
+        self._retriever.clear_active_document()
