@@ -9,6 +9,7 @@ from __future__ import annotations
 import streamlit as st
 
 from application.chat_service import ChatService
+from application.document_delete_service import DocumentDeleteService
 from application.document_upload_service import DocumentUploadService
 from infrastructure.database.document_repository import DocumentRepository
 
@@ -31,6 +32,15 @@ def get_upload_service() -> DocumentUploadService:
     return DocumentUploadService()
 
 
+@st.cache_resource
+def get_delete_service() -> DocumentDeleteService:
+    """
+    Creates a single delete service instance.
+    """
+
+    return DocumentDeleteService()
+
+
 def initialize_session() -> None:
     """
     Initializes Streamlit session state.
@@ -48,8 +58,8 @@ def initialize_session() -> None:
 
 def refresh_chat_service() -> None:
     """
-    Recreates the ChatService after indexing
-    new documents.
+    Recreates the ChatService after changes
+    in indexed documents.
     """
 
     st.cache_resource.clear()
@@ -67,6 +77,8 @@ def render_sidebar() -> None:
     documents = repository.list_documents()
 
     upload_service = get_upload_service()
+
+    delete_service = get_delete_service()
 
     with st.sidebar:
         st.title("🤖 PALACE AI")
@@ -130,11 +142,45 @@ def render_sidebar() -> None:
                 st.session_state.chat_service.clear_active_document()
 
             else:
-                st.session_state.chat_service.set_active_document(selected)
+                st.session_state.chat_service.set_active_document(
+                    selected,
+                )
 
         if documents:
             for document in documents:
-                st.success(f"✔ {document.filename}")
+                left, right = st.columns([8, 1])
+
+                with left:
+                    st.success(f"✔ {document.filename}")
+
+                with right:
+                    if st.button(
+                        "🗑",
+                        key=f"delete_{document.file_hash}",
+                        help="Delete document",
+                    ):
+                        result = delete_service.delete(
+                            document.filename,
+                        )
+
+                        if result.success:
+                            if st.session_state.selected_document == document.filename:
+                                st.session_state.selected_document = "All Documents"
+
+                                st.session_state.chat_service.clear_active_document()
+
+                            refresh_chat_service()
+
+                            st.success(
+                                result.message,
+                            )
+
+                            st.rerun()
+
+                        else:
+                            st.error(
+                                result.message,
+                            )
 
         else:
             st.info("No indexed documents.")
@@ -170,15 +216,21 @@ def render_history() -> None:
     """
 
     for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+        with st.chat_message(
+            message["role"],
+        ):
+            st.markdown(
+                message["content"],
+            )
 
             if (
                 message["role"] == "assistant"
                 and "sources" in message
                 and message["sources"]
             ):
-                with st.expander("Sources"):
+                with st.expander(
+                    "Sources",
+                ):
                     for chunk in message["sources"]:
                         st.markdown(
                             f"**{chunk.source_document}** "
@@ -205,17 +257,31 @@ def process_question(
         }
     )
 
-    with st.chat_message("user"):
-        st.markdown(question)
+    with st.chat_message(
+        "user",
+    ):
+        st.markdown(
+            question,
+        )
 
-    with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            response = st.session_state.chat_service.ask(question)
+    with st.chat_message(
+        "assistant",
+    ):
+        with st.spinner(
+            "Thinking...",
+        ):
+            response = st.session_state.chat_service.ask(
+                question,
+            )
 
-        st.markdown(response.answer)
+        st.markdown(
+            response.answer,
+        )
 
         if response.sources:
-            with st.expander("Sources"):
+            with st.expander(
+                "Sources",
+            ):
                 for chunk in response.sources:
                     st.markdown(
                         f"**{chunk.source_document}** "
@@ -251,9 +317,13 @@ def main() -> None:
 
     render_sidebar()
 
-    st.title("🤖 PALACE AI")
+    st.title(
+        "🤖 PALACE AI",
+    )
 
-    st.caption("Intelligent Document Assistant")
+    st.caption(
+        "Intelligent Document Assistant",
+    )
 
     if st.session_state.selected_document == "All Documents":
         st.info("Searching across all indexed documents.")
@@ -266,7 +336,9 @@ def main() -> None:
     question = st.chat_input("Ask a question about your documents...")
 
     if question:
-        process_question(question)
+        process_question(
+            question,
+        )
 
 
 if __name__ == "__main__":

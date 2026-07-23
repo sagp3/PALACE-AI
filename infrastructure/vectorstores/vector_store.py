@@ -39,3 +39,14 @@ class VectorStore(ABC):
         Performs semantic search.
         """
         raise NotImplementedError
+
+    @abstractmethod
+    def delete_document(
+        self,
+        filename: str,
+    ) -> None:
+        """
+        Deletes all vectors that belong
+        to the specified document.
+        """
+        raise NotImplementedError

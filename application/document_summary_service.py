@@ -9,7 +9,7 @@ from __future__ import annotations
 from application.knowledge_retriever import KnowledgeRetriever
 from core.chat_response import ChatResponse
 from core.chunk import Chunk
-from infrastructure.llm.ollama_llm import OllamaLLM
+from infrastructure.llm.openai_llm import OpenAILLM
 
 
 class DocumentSummaryService:
@@ -20,7 +20,7 @@ class DocumentSummaryService:
     def __init__(self) -> None:
         self._retriever = KnowledgeRetriever()
 
-        self._llm = OllamaLLM()
+        self._llm = OpenAILLM()
 
     def summarize(
         self,

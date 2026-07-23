@@ -11,7 +11,7 @@ from application.intent_detector import Intent, IntentDetector
 from application.knowledge_retriever import KnowledgeRetriever
 from application.prompt_builder import PromptBuilder
 from core.chat_response import ChatResponse
-from infrastructure.llm.ollama_llm import OllamaLLM
+from infrastructure.llm.openai_llm import OpenAILLM
 
 
 class ChatService:
@@ -27,7 +27,7 @@ class ChatService:
 
         self._prompt_builder = PromptBuilder()
 
-        self._llm = OllamaLLM()
+        self._llm = OpenAILLM()
 
         self._summary_service = DocumentSummaryService()
 

@@ -87,3 +87,18 @@ class ChromaVectorStore(VectorStore):
             }
 
         return self._collection.query(**kwargs)
+
+    def delete_document(
+        self,
+        filename: str,
+    ) -> None:
+        """
+        Deletes every chunk that belongs
+        to the specified document.
+        """
+
+        self._collection.delete(
+            where={
+                "document": filename,
+            }
+        )
