@@ -2,25 +2,27 @@
 
 ## Enterprise Document Assistant
 
-PALACE AI es un asistente inteligente basado en **Retrieval-Augmented Generation (RAG)** que permite consultar documentos empresariales en lenguaje natural utilizando inteligencia artificial.
+PALACE AI es un asistente inteligente basado en **Retrieval-Augmented Generation (RAG)** que permite consultar documentos empresariales mediante lenguaje natural utilizando Inteligencia Artificial.
 
-El sistema procesa documentos PDF y CSV, genera embeddings mediante OpenAI, almacena la información en una base vectorial (ChromaDB) y responde preguntas utilizando únicamente el contexto encontrado en los documentos.
-
----
-
-## 🚀 Demo en línea
-
-**Aplicación desplegada en Streamlit**
-
-👉 https://palace.streamlit.app/
+El sistema procesa documentos PDF y CSV, genera embeddings mediante OpenAI, almacena la información en ChromaDB y responde preguntas utilizando únicamente la información encontrada en los documentos.
 
 ---
 
-## 💻 Repositorio
+# 🚀 Demo
 
-GitHub
+Puedes probar la aplicación directamente desde el navegador sin instalar nada.
 
-👉 https://github.com/sagp3/PALACE-AI.git
+### 🌐 Aplicación
+
+https://palace.streamlit.app/
+
+---
+
+# 💻 Código Fuente
+
+Repositorio oficial:
+
+https://github.com/sagp3/PALACE-AI.git
 
 ---
 
@@ -30,41 +32,41 @@ GitHub
 - 📊 Carga de archivos CSV
 - 🧠 Búsqueda semántica mediante OpenAI Embeddings
 - 🤖 Respuestas generadas con OpenAI GPT
-- 📚 Base de datos vectorial con ChromaDB
+- 📚 Base de datos vectorial ChromaDB
 - 🗄 Persistencia mediante SQLite
 - 🚫 Detección automática de documentos duplicados
 - 🗑 Eliminación de documentos
 - 💬 Interfaz web desarrollada con Streamlit
-- 🏗 Arquitectura limpia (Clean Architecture)
+- 🏗 Arquitectura basada en Clean Architecture
 
 ---
 
 # Arquitectura
 
 ```
-                Usuario
-                   │
-                   ▼
-              Streamlit UI
-                   │
-                   ▼
-          Application Layer
-                   │
-                   ▼
-        Knowledge Retriever
-                   │
-        ┌──────────┴──────────┐
-        ▼                     ▼
- OpenAI Embeddings      ChromaDB
-        │
-        ▼
-     Prompt Builder
-        │
-        ▼
-    OpenAI GPT Model
-        │
-        ▼
-       Respuesta
+                    Usuario
+                       │
+                       ▼
+                 Streamlit UI
+                       │
+                       ▼
+              Application Layer
+                       │
+                       ▼
+            Knowledge Retriever
+                       │
+            ┌──────────┴──────────┐
+            ▼                     ▼
+     OpenAI Embeddings       ChromaDB
+            │
+            ▼
+        Prompt Builder
+            │
+            ▼
+      OpenAI GPT-4.1 Mini
+            │
+            ▼
+          Respuesta
 ```
 
 ---
@@ -72,30 +74,30 @@ GitHub
 # Flujo del sistema
 
 1. El usuario carga uno o varios documentos.
-2. El sistema extrae el contenido.
-3. El documento se divide en pequeños fragmentos (**chunks**).
-4. Se genera un **embedding** para cada fragmento.
-5. Los embeddings se almacenan en **ChromaDB**.
+2. El sistema extrae el texto.
+3. El documento se divide en pequeños fragmentos (Chunks).
+4. Se genera un embedding para cada fragmento.
+5. Los embeddings se almacenan en ChromaDB.
 6. El usuario realiza una pregunta.
 7. Se genera el embedding de la pregunta.
-8. Se buscan los fragmentos más similares.
-9. OpenAI recibe únicamente esos fragmentos como contexto.
-10. Se genera una respuesta basada exclusivamente en la información encontrada.
+8. ChromaDB busca los fragmentos más similares.
+9. OpenAI recibe únicamente esos fragmentos.
+10. Se genera una respuesta utilizando exclusivamente la información encontrada.
 
 ---
 
 # Tecnologías utilizadas
 
-| Tecnología | Descripción |
-|------------|-------------|
+| Tecnología | Uso |
+|------------|--------------------------------|
 | Python 3.12 | Lenguaje principal |
 | Streamlit | Interfaz web |
 | OpenAI GPT | Modelo de lenguaje |
-| OpenAI Embeddings | Búsqueda semántica |
+| OpenAI Embeddings | Embeddings |
 | ChromaDB | Base de datos vectorial |
 | SQLite | Persistencia |
-| Pandas | Lectura de CSV |
-| PyPDF | Procesamiento de PDF |
+| Pandas | Procesamiento de CSV |
+| PyPDF | Lectura de PDF |
 
 ---
 
@@ -116,15 +118,17 @@ PALACE-AI/
 └── .env
 ```
 
-La aplicación fue desarrollada siguiendo los principios de **Clean Architecture**, permitiendo una separación clara entre la lógica de negocio, infraestructura e interfaz de usuario. Esto facilita el mantenimiento, el escalamiento y la integración con otros sistemas.
+La aplicación fue desarrollada siguiendo los principios de **Clean Architecture**, separando la lógica de negocio de la infraestructura y de la interfaz de usuario.
+
+Esto facilita el mantenimiento, el escalamiento y la integración con otros sistemas.
 
 ---
 
 # Requisitos
 
-Antes de ejecutar el proyecto debes tener instalado:
+Antes de comenzar debes tener instalado:
 
-- Python **3.12** (recomendado)
+- Python 3.12 o superior
 - Git
 
 Puedes verificarlo ejecutando:
@@ -146,7 +150,7 @@ git clone https://github.com/sagp3/PALACE-AI.git
 
 ---
 
-## 2. Ingresar a la carpeta del proyecto
+## 2. Ingresar al proyecto
 
 ```bash
 cd PALACE-AI
@@ -176,17 +180,45 @@ venv/
 .\venv\Scripts\Activate.ps1
 ```
 
-Cuando el entorno esté activo verás algo similar a:
+Si aparece el mensaje:
+
+```
+La ejecución de scripts está deshabilitada en este sistema.
+```
+
+Ejecuta una única vez:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Acepta escribiendo:
+
+```
+Y
+```
+
+Luego vuelve a ejecutar:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Cuando el entorno esté activo verás algo parecido a:
 
 ```
 (venv) PS C:\PALACE-AI>
 ```
+
+---
 
 ### Windows (CMD)
 
 ```cmd
 venv\Scripts\activate.bat
 ```
+
+---
 
 ### Linux / macOS
 
@@ -210,7 +242,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Este proceso puede tardar algunos minutos dependiendo de la velocidad de internet.
+La instalación puede tardar algunos minutos dependiendo de la velocidad de internet.
 
 ---
 
@@ -237,11 +269,7 @@ streamlit_app.py
 requirements.txt
 ```
 
-Dentro del archivo agrega tu API Key de OpenAI:
-
-```text
-OPENAI_API_KEY=tu_api_key
-```
+Dentro del archivo agrega tu API Key de OpenAI.
 
 Ejemplo:
 
@@ -273,9 +301,9 @@ La primera vez que ejecutes PALACE AI el sistema creará automáticamente:
 
 - Base de datos SQLite
 - Base vectorial ChromaDB
-- Carpetas para almacenamiento de documentos
+- Carpeta de almacenamiento de documentos
 
-Este proceso es completamente normal y solo ocurre una vez.
+Este proceso es completamente normal y solo ocurre la primera vez.
 
 ---
 
@@ -286,26 +314,26 @@ Este proceso es completamente normal y solo ocurre una vez.
 3. Carga uno o varios documentos PDF o CSV.
 4. Espera a que finalice la indexación.
 5. Escribe una pregunta.
-6. PALACE AI buscará los fragmentos más relevantes y generará una respuesta utilizando únicamente la información contenida en los documentos.
+6. El sistema buscará los fragmentos más relevantes y generará una respuesta basada únicamente en la información encontrada.
 
 ---
 
 # Ejemplos de preguntas
 
-## Documentos PDF
+## PDF
 
 - ¿Cuál es la política de vacaciones?
 - ¿Qué dice el manual sobre el proceso de recepción?
 - ¿Cuáles son las responsabilidades del supervisor?
 - ¿Cómo funciona el proceso de despacho?
 
-## Archivos CSV
+## CSV
 
 - ¿Cuál es el producto más costoso?
-- ¿Cuántos registros existen?
 - ¿Cuál es el precio promedio?
-- ¿Qué productos están en producción?
+- ¿Cuántos registros existen?
 - ¿Cuántos pedidos están pendientes?
+- ¿Qué productos están en producción?
 
 ---
 
@@ -313,7 +341,7 @@ Este proceso es completamente normal y solo ocurre una vez.
 
 ## Streamlit no se reconoce
 
-Si aparece un mensaje similar a:
+Si aparece un error como:
 
 ```
 streamlit no se reconoce...
@@ -329,13 +357,25 @@ python -m streamlit run streamlit_app.py
 
 ## Error al activar el entorno virtual
 
-Si PowerShell bloquea la ejecución de scripts, ejecuta una única vez:
+Si PowerShell muestra:
 
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+La ejecución de scripts está deshabilitada en este sistema.
 ```
 
-Después vuelve a activar el entorno:
+Ejecuta una única vez:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Acepta con:
+
+```
+Y
+```
+
+Después activa nuevamente el entorno:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
@@ -345,13 +385,13 @@ Después vuelve a activar el entorno:
 
 ## OPENAI_API_KEY no encontrada
 
-Verifica que exista un archivo llamado:
+Verifica que exista un archivo:
 
 ```
 .env
 ```
 
-con el siguiente contenido:
+con el contenido:
 
 ```text
 OPENAI_API_KEY=tu_api_key
@@ -367,7 +407,7 @@ Actualiza pip:
 python -m pip install --upgrade pip
 ```
 
-Luego instala nuevamente:
+Luego vuelve a instalar:
 
 ```bash
 pip install -r requirements.txt
@@ -392,19 +432,19 @@ pip install -r requirements.txt
 
 ## Página principal
 
-*(Agregar captura de la pantalla principal)*
+*(Agregar captura de la pantalla principal.)*
 
 ---
 
 ## Chat
 
-*(Agregar captura del chat)*
+*(Agregar captura del chat.)*
 
 ---
 
 ## Gestión de documentos
 
-*(Agregar captura de la carga y eliminación de documentos)*
+*(Agregar captura de la carga y eliminación de documentos.)*
 
 ---
 
@@ -412,4 +452,4 @@ pip install -r requirements.txt
 
 Desarrollado por **Santiago Andrés** como parte del **Challenge Alura ONE – Agente Inteligente con IA**.
 
-El proyecto implementa una arquitectura **Retrieval-Augmented Generation (RAG)** siguiendo principios de **Clean Architecture**, permitiendo una solución escalable, mantenible y preparada para futuras integraciones empresariales.
+PALACE AI implementa una arquitectura **Retrieval-Augmented Generation (RAG)** siguiendo los principios de **Clean Architecture**, permitiendo una solución escalable, mantenible y preparada para futuras integraciones empresariales.
