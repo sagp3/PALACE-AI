@@ -428,26 +428,6 @@ pip install -r requirements.txt
 
 ---
 
-# Capturas
-
-## Página principal
-
-*(Agregar captura de la pantalla principal.)*
-
----
-
-## Chat
-
-*(Agregar captura del chat.)*
-
----
-
-## Gestión de documentos
-
-*(Agregar captura de la carga y eliminación de documentos.)*
-
----
-
 # Autor
 
 Desarrollado por **Santiago Andrés** como parte del **Challenge Alura ONE – Agente Inteligente con IA**.
